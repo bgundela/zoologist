@@ -29,19 +29,31 @@ The page includes six quick stats, source-linked fun facts, habitat, an original
 
 Share uses the device’s native sheet where supported. Otherwise it copies a dated permalink; if clipboard access fails, it displays a manually copyable URL. Canceling the native sheet is silent. `/?date=YYYY-MM-DD` selects a scheduled past date. Invalid, future, and out-of-schedule requests show today. Dates use the visitor’s local calendar; visitors in different timezones may be on different daily selections. An exhausted schedule uses the explicit fallback without wrapping or changing old entries.
 
-## Discovery and review
+## Automatic discovery
 
 `npm run discover` is the only networked content step. It queries active iNaturalist species, checks exact accepted GBIF names, extracts Wikipedia sentences, reads available Wikidata measurements and conservation status, checks image reuse licenses, generates WebP images and maps, derives an AA-checked palette with Sharp, scores documentation and obscurity using pageviews, and prefers a different class from the previous day. APIs are throttled per host and retried. Candidate failures are isolated; schedule writes are atomic. Previously scheduled dates and species are preserved, including the fixture’s scientific name.
 
-The job considers a bounded pool of candidates (up to 100 across eight result pages). It may produce fewer than 14 new days when APIs or content quality prevent filling the buffer. Run it again later to resume. Individual failures are logged, and no-candidate runs fail without replacing the schedule. Unknown diet, lifespan context, habitat details, and measurements are not invented. Lifespan is deliberately left unknown in automatically generated entries until its wild/captivity context is reviewed.
+The job considers a bounded pool of candidates (up to 100 across eight result pages). It may produce fewer than 14 new days when APIs or content quality prevent filling the buffer. The next daily workflow run resumes automatically. Individual failures are logged. A source outage fails the run without publishing; successful searches with no suitable animals advance the discovery cursor and preserve the existing schedule. Unknown diet, lifespan context, habitat details, and measurements are not invented. Lifespan is deliberately left unknown in automatically generated entries until its wild/captivity context is reviewed.
 
 Edit `data-pipeline/overrides.json` for blocked species (scientific name or generated slug), accent overrides keyed by slug, and pins mapping ISO dates to generated slugs. Pins must be available in the current candidate pool; an unavailable pin stops scheduling instead of silently substituting another animal. Existing dates cannot be repinned.
 
-`.github/workflows/discover.yml` runs Mondays at 09:00 UTC or on manual dispatch. It opens a review PR rather than auto-merging. Enable GitHub Actions’ permission to create pull requests in repository settings. Review photo attribution/license metadata, measurements, context of extracted facts, occurrence records, and conservation status before merging; set each animal’s `reviewed` field to true after review. Automated entries start as `reviewed: false`. The build validates content/assets/contrast but does not claim to replace editorial review.
+`.github/workflows/discover.yml` runs automatically on relevant pushes to the default branch, daily at 09:23 UTC, and on manual dispatch. It keeps a 14-day buffer, verifies that existing schedule entries are unchanged, runs TypeScript checks, tests, and a static build, then commits validated data directly to the default branch and requests a Vercel deployment. There are no review PRs or manual merges. The job uses the earliest global calendar date (UTC+14) to maintain the buffer ahead of every visitor’s local midnight. A persisted candidate-page cursor avoids repeatedly searching only the first species results.
+
+Generated entries remain `reviewed: false`: automated schema, source, license, and contrast checks are not human editorial review. There is no LLM integration. An external API outage or validation failure leaves published content intact and the daily schedule retries later. This is unattended routine operation, not a guarantee against third-party outages. Failed workflow notifications and Vercel build results remain useful for exceptional failures.
+
+### One-time setup
+
+1. Push this repository to its default branch and import it in Vercel, with that same branch as the production branch.
+2. In Vercel, open **Project Settings → Git → Deploy Hooks**, create a hook for the production branch, and copy its URL. See [Vercel’s Deploy Hook documentation](https://vercel.com/docs/deploy-hooks).
+3. In GitHub, add an **Actions repository secret** named `VERCEL_DEPLOY_HOOK` containing that URL. Treat it as a credential; do not commit it or paste it into issue logs.
+4. Ensure GitHub Actions is enabled and repository/organization policy permits this workflow’s `contents: write` permission and direct pushes to the default branch. Existing rules requiring PR approval can prevent unattended commits; this workflow does not bypass branch protections.
+5. After adding the secret, run **Discover animals → Run workflow** once, or wait for the next daily run. Subsequent relevant pushes also start it automatically.
+
+The deployment hook explicitly requests a Vercel build of the latest committed default branch. It is called after successful validation and push, including on no-change runs, so a failed deployment request is retried by the next scheduled run. A successful workflow hook step means Vercel accepted the request; Vercel’s dashboard reports the actual deployment result. The normal Vercel Git integration can remain enabled. No personal access token, Vercel API token, or biology API key is needed.
 
 ## Vercel
 
-Import this repository in Vercel with the **Astro** preset, `npm run build`, output `dist`, and a supported Node 22 or newer runtime. No server adapter, database, or API keys are needed. Pushes to the connected production branch deploy normally; merging a discovery PR updates the daily catalog. This workspace implementation has not been published or pushed.
+Import this repository in Vercel with the **Astro** preset, `npm run build`, output `dist`, and a supported Node 22 or newer runtime. No server adapter, database, or API keys are needed. Pushes to the connected production branch deploy normally; the daily workflow commits discoveries and requests deployment automatically. This workspace implementation has not been published or pushed.
 
 ## Credits
 

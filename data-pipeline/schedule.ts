@@ -20,10 +20,14 @@ const slug=(s:string)=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-');
 const needs=target-schedule.order.length;
 if(needs<=0){console.log('Schedule already has a 14-day buffer.');process.exit(0);}
 let inspected=0;
+const state=JSON.parse(await readFile('data-pipeline/discovery-state.json','utf8'));
+let nextPage=Number.isInteger(state.nextPage)&&state.nextPage>=1&&state.nextPage<=100?state.nextPage:1;
+let pagesFetched=0;
 // Bound API work and tolerate individual species/API failures. A later run can resume.
-for(let page=1;page<=8&&pool.length<needs+4;page++){
+for(let batch=0;batch<8&&pool.length<needs+4;batch++){
+ const page=nextPage;
  let candidates:Candidate[];
- try{candidates=await discoverCandidates(page);}catch(error){console.warn('Candidate API unavailable:',String(error));break;}
+ try{candidates=await discoverCandidates(page);pagesFetched++;nextPage=candidates.length?(page%100)+1:1;}catch(error){console.warn('Candidate API unavailable:',String(error));break;}
  for(const candidate of candidates){
   const id=slug(candidate.name);
   if(used.has(id)||usedNames.has(candidate.name)||overrides.blocked.includes(id)||overrides.blocked.includes(candidate.name))continue;
@@ -52,4 +56,10 @@ while(schedule.order.length<target&&pool.length){
 }
 if(added){await writeFile('public/data/schedule.json.tmp',JSON.stringify(schedule,null,2)+'\n');await rename('public/data/schedule.json.tmp','public/data/schedule.json');}
 console.log(`Appended ${added} animals. Existing entries preserved. ${Math.max(0,schedule.order.length-current-1)} future days available.`);
-if(!added)process.exitCode=1;
+if(pagesFetched){
+ await writeFile('data-pipeline/discovery-state.json',JSON.stringify({nextPage},null,2)+'\n');
+}
+if(!added){
+ console.warn('No new animals passed validation. The existing schedule remains in use; the next daily run will try again.');
+ if(!pagesFetched)process.exitCode=1;
+}

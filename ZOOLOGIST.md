@@ -188,7 +188,7 @@ const animalId = schedule.order[dayIndex()];
 | Image optimization | `sharp` → WebP at 600 and 1200px | Keeps the hero image fast on mobile |
 | Color extraction | `node-vibrant` | Pulls the accent from the photo |
 | Hosting | **Vercel** (Hobby plan), static output | Free; the Vercel GitHub integration auto-deploys every push, so no Vercel token is needed |
-| CI | **GitHub Actions** | Weekly discovery job commits new animals; that push triggers the Vercel deploy |
+| CI | **GitHub Actions** | Daily discovery commits validated animals; a Deploy Hook requests the Vercel deploy |
 
 **It's 100% static.** At runtime there is no server, no database, and no API call: the browser only loads files from `dist/`. All API calls happen in the pipeline, at build time.
 
@@ -304,10 +304,10 @@ The goal is animals that are surprising but not so obscure that there's nothing 
 ### 7.3 Rolling, append-only schedule
 Because the pool is dynamic, the schedule is generated a little ahead of time instead of all at once:
 
-1. A **GitHub Actions cron job runs weekly** (or nightly). It tops up `schedule.json` so there are always about **14 future days** filled in.
+1. A **GitHub Actions cron job runs daily**, and on relevant pushes. It tops up `schedule.json` so there are always about **14 future days** filled in.
 2. For each open day it takes the highest-scoring candidate that hasn't been used before, then runs the normal enrich step (fetch, fun facts, accent color, image processing).
 3. **Past and current days are never rewritten.** The schedule is append-only, so today's animal stays the same for everyone and old permalinks keep working.
-4. The 14-day buffer is also a **review window**. New entries land in a pull request, so you can skim them and swap one out before it goes live. If you'd rather it be fully hands-off, the PR can auto-merge once validation passes.
+4. The 14-day buffer is also a **review window**. New entries pass automated validation, tests, type checks, and a static build, then commit directly to the default branch. A Vercel Deploy Hook requests publication. Routine updates require no review PR or manual merge; generated entries are not marked as human-reviewed.
 5. If discovery fails (API down, nothing passes the filters), the job leaves the buffer as-is and the site keeps running on the days already scheduled.
 
 ### 7.4 Optional overrides
@@ -364,7 +364,7 @@ zoologist/
 │   ├── components/            # Hero, StatGrid, FunFacts, RangeMap, Credits
 │   ├── lib/today.ts           # dayIndex + selection logic
 │   └── styles/theme.css
-├── .github/workflows/discover.yml   # weekly cron: discover → commit (Vercel deploys on push)
+├── .github/workflows/discover.yml   # daily cron: discover → validate → commit → Vercel Deploy Hook
 └── README.md
 ```
 
@@ -424,7 +424,7 @@ npm run build           # static build → dist/
 npm test                # unit tests + data validation
 ```
 - `npm run build` must **not** call any APIs. It only reads the committed JSON and images, so Vercel builds are fast and can't fail because an external API is down.
-- `npm run discover` is the only networked step. It runs in GitHub Actions on a weekly cron (`0 9 * * 1`) and via manual `workflow_dispatch`.
+- `npm run discover` is the only networked step. It runs in GitHub Actions on a daily cron (`23 9 * * *`) and via manual `workflow_dispatch`.
 
 ### 13.4 First-run seed
 The repo ships with **one complete fixture animal** (the aye-aye, matching the JSON in section 6, plus its image) and a `schedule.json` pointing every date at it until discovery runs. That way the site builds and renders correctly even in a sandbox with no network access. The first `npm run discover` run in GitHub Actions replaces the fixture schedule going forward.
@@ -445,4 +445,7 @@ The repo ships with **one complete fixture animal** (the aye-aye, matching the J
 ## 14. Open Questions
 
 1. How strict should the niche score be? This needs tuning after seeing the first few weeks of picks.
-2. Should new picks auto-merge, or wait for you to approve the weekly pull request?
+2. Resolved: new picks publish automatically after automated checks; no weekly review PR.
+
+### Unattended publishing update
+The implemented workflow uses one repository secret, `VERCEL_DEPLOY_HOOK`, created for the Vercel production branch. This is needed for an explicit deployment request after automated commits. See README.md for the one-time setup and branch-write requirements. The public biology sources still require no API keys.

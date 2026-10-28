@@ -32,3 +32,13 @@ test('share fallback copies, handles denial, and cancels quietly',async()=>{let 
 
 import { quantity } from '../data-pipeline/fetch';
 test('adult measurements exclude birth-weight qualifiers and deprecated values',()=>{const claim=(amount:string,role:string,rank='normal')=>({rank,mainsnak:{datavalue:{value:{amount,unit:'kg'}}},qualifiers:{P3831:[{datavalue:{value:{id:role}}}]}});assert.deepEqual(quantity({P2067:[claim('+0.115','Q4128476'),claim('+2.5','Q78101716'),claim('+100','Q78101716','deprecated')]},'P2067',{kg:1}),{min:2.5,max:2.5});});
+
+import { verifyAppendOnly } from '../data-pipeline/schedule-integrity';
+test('automated publishing preserves historical selections and rejects repeated new species',()=>{
+ const before={launch:'2026-10-28',fallback:'aye-aye',order:['aye-aye','bird']};
+ assert.doesNotThrow(()=>verifyAppendOnly(before,{...before,order:[...before.order,'fish']}));
+ assert.throws(()=>verifyAppendOnly(before,{...before,order:['fish','bird']}),/preserve/);
+ assert.throws(()=>verifyAppendOnly(before,{...before,order:['aye-aye']}),/preserve/);
+ assert.throws(()=>verifyAppendOnly(before,{...before,launch:'2026-01-01'}),/launch/);
+ assert.throws(()=>verifyAppendOnly(before,{...before,order:[...before.order,'bird']}),/repeated/);
+});
