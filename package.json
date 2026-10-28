@@ -1,0 +1,42 @@
+{
+  "name": "zoologist",
+  "version": "1.0.0",
+  "description": "One remarkable animal, every day.",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "node --import tsx data-pipeline/validate.ts && astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "discover": "node --import tsx data-pipeline/schedule.ts",
+    "test": "node --import tsx --test tests/*.test.ts && node --import tsx data-pipeline/validate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgundela/zoologist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgundela/zoologist/issues"
+  },
+  "homepage": "https://github.com/bgundela/zoologist#readme",
+  "dependencies": {
+    "@fontsource/fredoka": "^5.3.0",
+    "@fontsource/nunito": "^5.3.0",
+    "@types/node": "^26.6.5",
+    "ajv": "^8.20.0",
+    "astro": "^7.4.2",
+    "sharp": "^0.35.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "node": "^22.23.4"
+  },
+  "engines": {
+    "node": ">=22.23.4"
+  }
+}

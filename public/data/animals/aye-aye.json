@@ -1,0 +1,132 @@
+{
+  "id": "aye-aye",
+  "commonName": "Aye-aye",
+  "scientificName": "Daubentonia madagascariensis",
+  "taxonomy": {
+    "class": "Mammalia",
+    "order": "Primates",
+    "family": "Daubentoniidae"
+  },
+  "category": "Mammal",
+  "conservationStatus": {
+    "code": "EN",
+    "label": "Endangered"
+  },
+  "theme": {
+    "accent": "#B4561E",
+    "tokens": {
+      "wash": "#fcf8f6",
+      "soft": "#f6ebe4",
+      "line": "#ead0c0",
+      "ink": "#200f05",
+      "muted": "#5a2b0f",
+      "deep": "#4f260d",
+      "on-deep": "#f8eee9"
+    },
+    "accentDark": "#d6a283",
+    "dark": {
+      "wash": "#120903",
+      "soft": "#281307",
+      "line": "#632f11",
+      "ink": "#f9f1ed",
+      "muted": "#e9ccbc",
+      "deep": "#3f1e0b",
+      "on-deep": "#f9f1ed"
+    },
+    "source": "manual"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 2,
+      "max": 2.7
+    },
+    "lengthCm": {
+      "min": 36,
+      "max": 44,
+      "note": "Body, excluding its bushy tail"
+    },
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": 23
+    },
+    "diet": "Omnivore",
+    "dietNote": "Larvae, seeds, fruit, nectar",
+    "activity": "Nocturnal",
+    "activityNote": "Usually a solitary forager",
+    "livesIn": "Trees",
+    "livesInNote": "At home in the forest canopy"
+  },
+  "habitat": {
+    "types": [
+      "Tropical rainforest",
+      "Deciduous forest",
+      "Mangroves"
+    ],
+    "ecosystemRole": "Finds wood-boring larvae by tapping on branches, filling a niche similar to a woodpecker.",
+    "regions": [
+      "Madagascar"
+    ],
+    "countries": [
+      "MG"
+    ],
+    "rangeMapUrl": "/img/aye-aye-range.svg",
+    "mapNote": "Native range: Madagascar. Schematic, not an occurrence-density map.",
+    "threats": "Habitat loss and persecution linked to local superstitions."
+  },
+  "funFacts": [
+    {
+      "text": "It taps on wood with a slender middle finger, listening for hollow spaces where insect larvae hide.",
+      "source": "https://animaldiversity.org/accounts/Daubentonia_madagascariensis/"
+    },
+    {
+      "text": "Its front teeth keep growing throughout its life, helping it gnaw through wood to reach food.",
+      "source": "https://animaldiversity.org/accounts/Daubentonia_madagascariensis/"
+    },
+    {
+      "text": "By day, it curls up in a nest of leaves and branches high in the canopy.",
+      "source": "https://animaldiversity.org/accounts/Daubentonia_madagascariensis/"
+    },
+    {
+      "text": "A tiny extra digit at each wrist helps it grip branches: researchers call it a pseudothumb.",
+      "source": "https://doi.org/10.1002/ajpa.23936"
+    }
+  ],
+  "summary": [
+    "Meet one of Madagascar’s most extraordinary neighbors. The aye-aye is a lemur found only on this island, with wide ears, bright eyes and a wonderfully shaggy tail. It spends much of its life among the branches, emerging after dark to forage.",
+    "That unusual hand is a toolkit. After tapping to locate a hidden meal, an aye-aye gnaws an opening in the wood and reaches inside with its long middle finger. Fruit, seeds and nectar are on the menu, too. Protecting Madagascar’s forests protects the home of this remarkable primate."
+  ],
+  "image": {
+    "src": "/img/aye-aye-1200.webp",
+    "srcset": [
+      "/img/aye-aye-600.webp 600w",
+      "/img/aye-aye-1200.webp 1200w"
+    ],
+    "alt": "A wild aye-aye perched on a tree at night, with large ears, amber eyes and a bushy tail",
+    "credit": "nomis-simon",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wild_aye_aye.jpg",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Animal Diversity Web",
+      "url": "https://animaldiversity.org/accounts/Daubentonia_madagascariensis/"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aye-aye"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q186778"
+    },
+    {
+      "label": "Pseudothumb study",
+      "url": "https://doi.org/10.1002/ajpa.23936"
+    }
+  ],
+  "textLicense": "Original summary; see individual sources for factual references.",
+  "reviewed": true,
+  "updatedAt": "2026-10-28"
+}

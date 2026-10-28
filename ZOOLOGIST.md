@@ -205,9 +205,9 @@ const animalId = schedule.order[dayIndex()];
 | **Wikimedia Pageviews API** | Monthly views per article | Feeds the "obscurity" part of the niche score (7.2) |
 All of the sources above are **free and need no API key**. The pipeline must send a descriptive `User-Agent` header (e.g., `Zoologist/1.0 (github.com/<you>/zoologist)`), which Wikimedia requires, and should stay well under rate limits (about 1 request/second per source, with retries). Conservation status comes from Wikidata's IUCN property, so the IUCN Red List API, which does need a token, isn't used.
 
-**Fun facts** come from one of two modes, picked automatically:
+**Fun facts** use extractive selection only:
 1. **No key (default):** an extractive picker scores sentences from the Wikipedia article, favoring ones with numbers, superlatives ("largest," "only"), or unusual verbs, and lightly trims them. It works with zero setup.
-2. **With an LLM key (optional, better):** if `LLM_API_KEY` is set, the pipeline asks an LLM to rewrite the facts from the fetched Wikipedia text only, with no outside knowledge, and keeps each fact's source link. If the call fails, it falls back to mode 1.
+2. **No LLM integration:** all fun facts use source-attributed extractive text. No model calls or API secrets are used.
 
 The 14-day review window (7.3) is where you can catch a bad fact before it goes live.
 
@@ -401,7 +401,7 @@ Everything in this section is a fixed decision, so the project can be built in o
 | Hosting | Vercel, framework preset **Astro**, build command `npm run build`, output directory `dist` |
 | Day rollover | **Visitor's local midnight** |
 | Range map | **Static image** generated at build time |
-| Fun facts | Extractive by default; LLM rewrite only if `LLM_API_KEY` is set |
+| Fun facts | Extractive only; no LLM integration |
 | Past animals | Supported via `/?date=YYYY-MM-DD` for any date already in the schedule; future dates show today's animal instead |
 | Units | Metric by default, toggle to imperial, choice saved in `localStorage` (wrapped in try/catch) |
 
@@ -411,9 +411,9 @@ Everything in this section is a fixed decision, so the project can be built in o
 | iNaturalist, Wikidata, Wikipedia, Wikimedia Pageviews, GBIF | **No key** | Public read APIs. Send a `User-Agent` and throttle to about 1 req/s. |
 | Vercel | **No key** | Import the GitHub repo once in the Vercel dashboard; deploys happen automatically on push |
 | GitHub Actions | **No key** | Uses the built-in `GITHUB_TOKEN` (with `contents: write`) to commit new animals |
-| LLM for fun facts | **Optional** | Set `LLM_API_KEY` as a GitHub Actions secret to enable it; the site works fully without it |
+| Fun facts | **No key** | Source-attributed extractive selection only; no LLM integration |
 
-So the answer is: **nothing is required.** The only optional key is an LLM key for nicer fun facts.
+So the answer is: **nothing is required.** Fun facts use extractive selection without an LLM key.
 
 ### 13.3 Commands
 ```bash

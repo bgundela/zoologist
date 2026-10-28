@@ -1,0 +1,8 @@
+{
+  "launch": "2026-10-28",
+  "fixture": true,
+  "fallback": "aye-aye",
+  "order": [
+    "aye-aye"
+  ]
+}

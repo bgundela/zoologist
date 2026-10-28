@@ -1,0 +1,33 @@
+name: Discover animals
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: animal-discovery
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run discover
+      - run: npm test && npm run build
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/daily-animals
+          commit-message: 'Add newly discovered animals to the daily schedule'
+          title: 'Review the next Zoologist discoveries'
+          body: 'New source-attributed species, openly licensed photos, and GBIF occurrence maps. Review extracted text, measurements, photo license metadata, and range records before merging. Schedule entries are append-only. The Vercel Git integration deploys after merge.'
+          add-paths: |
+            public/data
+            public/img
