@@ -1,0 +1,162 @@
+{
+  "id": "sylvilagus-floridanus",
+  "commonName": "Eastern Cottontail",
+  "scientificName": "Sylvilagus floridanus",
+  "taxonomy": {
+    "class": "Mammalia",
+    "order": "Lagomorpha",
+    "family": "Leporidae"
+  },
+  "category": "Mammal",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 1.134,
+      "max": 1.244
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "It is a primarily herbivorous, crepuscular mammal that feeds on grasses, herbs, twigs, and bark, and plays an important role in the ecosystem as prey for a variety of predators including foxes, hawks, and owls.",
+    "activity": "Nocturnal",
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Colombia",
+      "Italy",
+      "Venezuela",
+      "Switzerland",
+      "El Salvador",
+      "Nicaragua",
+      "Costa Rica",
+      "Curaçao",
+      "France",
+      "Guatemala",
+      "Honduras",
+      "Cuba",
+      "Aruba",
+      "Unknown Region"
+    ],
+    "countries": [
+      "US",
+      "CA",
+      "MX",
+      "CO",
+      "IT",
+      "VE",
+      "CH",
+      "SV",
+      "NI",
+      "CR",
+      "CW",
+      "FR",
+      "GT",
+      "HN",
+      "CU",
+      "AW",
+      "ZZ"
+    ],
+    "rangeMapUrl": "/img/sylvilagus-floridanus-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "It is a primarily herbivorous, crepuscular mammal that feeds on grasses, herbs, twigs, and bark, and plays an important role in the ecosystem as prey for a variety of predators including foxes, hawks, and owls.",
+      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail"
+    },
+    {
+      "text": "Due to its adaptability to human-altered landscapes such as suburban and agricultural areas, the eastern cottontail has maintained stable population levels and is not considered threatened.",
+      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail"
+    },
+    {
+      "text": "It was first formally described by French naturalist Charles Alexandre Lesueur in 1827.",
+      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail"
+    },
+    {
+      "text": "The genus Sylvilagus includes around 15 species of New World cottontail rabbits, which are widespread throughout the Americas.",
+      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail"
+    }
+  ],
+  "summary": [
+    "The eastern cottontail (Sylvilagus floridanus) is a species of rabbit in the family Leporidae. It is the most widespread and abundant rabbit species in North America, inhabiting a wide range that extends from southern Canada throughout most of the United States and into parts of Mexico, Central America, and the northern regions of South America. Known for its distinctive fluffy white tail, which resembles a cotton ball and gives the species its common name, the eastern cottontail typically inhabits open fields, meadows, and brushy areas where it can easily find cover and food. It is a primarily herbivorous, crepuscular mammal that feeds on grasses, herbs, twigs, and bark, and plays an important role in the ecosystem as prey for a variety of predators including foxes, hawks, and owls. Due to its adaptability to human-altered landscapes such as suburban and agricultural areas, the eastern cottontail has maintained stable population levels and is not considered threatened. It is also well known for its high reproductive rate, with females capable of producing multiple large litters annually, which contributes to its widespread presence.",
+    "Sylvilagus floridanus is a member of the family Leporidae within the order Lagomorpha. It was first formally described by French naturalist Charles Alexandre Lesueur in 1827. The genus Sylvilagus includes around 15 species of New World cottontail rabbits, which are widespread throughout the Americas."
+  ],
+  "image": {
+    "src": "/img/sylvilagus-floridanus-1200.webp",
+    "srcset": [
+      "/img/sylvilagus-floridanus-600.webp 600w",
+      "/img/sylvilagus-floridanus-1200.webp 1200w"
+    ],
+    "alt": "Eastern Cottontail (Sylvilagus floridanus); species reference photograph",
+    "credit": "(c) Andrew Murray, some rights reserved (CC BY), uploaded by Andrew Murray",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/277644122",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Eastern_cottontail"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q774716"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/43111"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2436886"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-10-28"
+}

@@ -1,0 +1,148 @@
+{
+  "id": "buteo-lineatus",
+  "commonName": "Red-shouldered Hawk",
+  "scientificName": "Buteo lineatus",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.55,
+      "max": 0.7010000000000001
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": null,
+    "dietNote": "",
+    "activity": "Nocturnal",
+    "activityNote": "Described in the source article",
+    "livesIn": "Trees",
+    "livesInNote": "Arboreal species"
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Turks & Caicos Islands",
+      "Bahamas",
+      "Bermuda",
+      "Costa Rica",
+      "Cuba",
+      "United Kingdom",
+      "Venezuela"
+    ],
+    "countries": [
+      "US",
+      "CA",
+      "MX",
+      "TC",
+      "BS",
+      "BM",
+      "CR",
+      "CU",
+      "GB",
+      "VE"
+    ],
+    "rangeMapUrl": "/img/buteo-lineatus-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "It is a permanent resident throughout most of its range, though northern birds do migrate, mostly to central Mexico.",
+      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk"
+    },
+    {
+      "text": "== Taxonomy == The red-shouldered hawk was formally described in 1788 by the German naturalist Johann Friedrich Gmelin in his revised and expanded edition of Carl Linnaeus's Systema Naturae.",
+      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk"
+    },
+    {
+      "text": "The red-shouldered hawk is now placed with 27 other species in the genus Buteo that was introduced in 1799 by Bernard Germain de Lacépède.",
+      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk"
+    },
+    {
+      "text": "alleni Ridgway, 1885 – central south Texas to North Carolina and north Florida (USA) B.",
+      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk"
+    }
+  ],
+  "summary": [
+    "The red-shouldered hawk (Buteo lineatus) is a medium-sized buteo. Its breeding range spans eastern North America, along the coast of California and northern to northeastern-central Mexico. It is a permanent resident throughout most of its range, though northern birds do migrate, mostly to central Mexico. The main conservation threat to the widespread species is deforestation.",
+    "The red-shouldered hawk was formally described in 1788 by the German naturalist Johann Friedrich Gmelin in his revised and expanded edition of Carl Linnaeus's Systema Naturae. He placed it with the eagles, hawks and relatives in the genus Falco and coined the binomial name Falco lineatus. Gmelin based his account on the \"barred-breasted buzzard\" of John Latham and the \"red shouldered falcon\" of Thomas Pennant. Latham had described a preserved specimen from North America in the Leverian collection while Pennant's specimen formed part of the collection of Anna Blackburne and had come from Long Island. The red-shouldered hawk is now placed with 27 other species in the genus Buteo that was introduced in 1799 by Bernard Germain de Lacépède. "
+  ],
+  "image": {
+    "src": "/img/buteo-lineatus-1200.webp",
+    "srcset": [
+      "/img/buteo-lineatus-600.webp 600w",
+      "/img/buteo-lineatus-1200.webp 1200w"
+    ],
+    "alt": "Red-shouldered Hawk (Buteo lineatus); species reference photograph",
+    "credit": "(c) Jonathan Eisen, some rights reserved (CC BY), uploaded by Jonathan Eisen",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/60982682",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Red-shouldered_hawk"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1052043"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/5206"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2480529"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-10-28"
+}
