@@ -22,6 +22,13 @@ const themes=Object.fromEntries(catalog.map(a=>[a.id,a.theme]));
 <meta name="theme-color" content={fixture.theme.accent}/>
 <meta property="og:title" content="Zoologist — A new animal every day"/><meta property="og:description" content="The world is full of extraordinary neighbors. Meet one today."/><meta property="og:type" content="website"/><meta property="og:image" content="/img/aye-aye-1200.webp"/>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180"/>
+<link rel="manifest" href="/site.webmanifest"/>
+<meta name="application-name" content="Zoologist"/>
+<meta name="apple-mobile-web-app-title" content="Zoologist"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="mobile-web-app-capable" content="yes"/>
 <script is:inline define:vars={{themes,schedule}}>
 (function(){
  const now=new Date(),today=[now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');

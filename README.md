@@ -58,3 +58,9 @@ Import this repository in Vercel with the **Astro** preset, `npm run build`, out
 ## Credits
 
 Fixture photo: [nomis-simon, Wild aye aye](https://commons.wikimedia.org/wiki/File:Wild_aye_aye.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), resized and converted to WebP. See the site’s per-fact links and sources for biology references. The fixture summary is original prose. Generated Wikipedia extracts are attributed and licensed CC BY-SA 4.0; photo licenses remain independent. Map tile attribution and occurrence-data credits are stored with each generated animal.
+
+## Phone home-screen icon
+
+The home-screen icon uses the orange outlined paw from the header/mockup on a warm cream background. Apple touch (180px), manifest (192px/512px, with safe padding for masking), and browser icons are bundled. The manifest opens the saved site at today’s animal in a standalone window. It does not add offline caching.
+
+After deployment, open the site on your phone and use **Add to Home Screen**. If you already saved an older icon, remove that shortcut and add the site again to refresh it. To regenerate icon PNGs after editing `public/icons/paw.svg`, run `node scripts/generate-icons.mjs`.
