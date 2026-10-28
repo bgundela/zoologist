@@ -1,0 +1,189 @@
+{
+  "id": "bubo-virginianus",
+  "commonName": "Great Horned Owl",
+  "scientificName": "Bubo virginianus",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Strigiformes",
+    "family": "Strigidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": null,
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "Its diet consists primarily of rabbits and hares, rats and mice, and voles; it remains one of the few regular predators of skunk.",
+    "activity": "Nocturnal",
+    "activityNote": "Described in the source article",
+    "livesIn": "Trees",
+    "livesInNote": "Arboreal species"
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "Guatemala",
+      "Colombia",
+      "Ecuador",
+      "Honduras",
+      "Uruguay",
+      "Venezuela",
+      "Guyana",
+      "Bolivia",
+      "Paraguay",
+      "Belize",
+      "Nicaragua",
+      "El Salvador",
+      "Suriname",
+      "Peru",
+      "French Guiana",
+      "Chile",
+      "Isle of Man",
+      "Netherlands",
+      "Belgium",
+      "United Kingdom",
+      "French Polynesia",
+      "St. Pierre & Miquelon",
+      "Unknown Region",
+      "Costa Rica",
+      "Spain",
+      "Greece",
+      "Russia"
+    ],
+    "countries": [
+      "US",
+      "CA",
+      "MX",
+      "BR",
+      "AR",
+      "GT",
+      "CO",
+      "EC",
+      "HN",
+      "UY",
+      "VE",
+      "GY",
+      "BO",
+      "PY",
+      "BZ",
+      "NI",
+      "SV",
+      "SR",
+      "PE",
+      "GF",
+      "CL",
+      "IM",
+      "NL",
+      "BE",
+      "GB",
+      "PF",
+      "PM",
+      "ZZ",
+      "CR",
+      "ES",
+      "GR",
+      "RU"
+    ],
+    "rangeMapUrl": "/img/bubo-virginianus-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "It is an extremely adaptable bird with a vast range and is the most widely distributed true owl in the Americas.",
+      "source": "https://en.wikipedia.org/wiki/Great_horned_owl"
+    },
+    {
+      "text": "Hunting also includes rodents, larger mid-sized mammals, birds, reptiles, amphibians, and invertebrates.",
+      "source": "https://en.wikipedia.org/wiki/Great_horned_owl"
+    },
+    {
+      "text": "== Taxonomy == The great horned owl was formally described in 1788 by the German naturalist Johann Friedrich Gmelin in his revised and expanded edition of Carl Linnaeus's Systema Naturae.",
+      "source": "https://en.wikipedia.org/wiki/Great_horned_owl"
+    },
+    {
+      "text": "Gmelin based his description on that of English naturalist George Edwards who had described and illustrated the great horned owl in 1747 in the second volume of his A Natural History of Uncommon Birds.",
+      "source": "https://en.wikipedia.org/wiki/Great_horned_owl"
+    }
+  ],
+  "summary": [
+    "The great horned owl (Bubo virginianus), also known as the tiger owl (originally derived from early naturalists' description as the \"winged tiger\" or \"tiger of the air\") or the hoot owl, is a large owl native to the Americas. It is an extremely adaptable bird with a vast range and is the most widely distributed true owl in the Americas. Its diet consists primarily of rabbits and hares, rats and mice, and voles; it remains one of the few regular predators of skunk. Hunting also includes rodents, larger mid-sized mammals, birds, reptiles, amphibians, and invertebrates. ",
+    "In ornithological study, the great horned owl is often compared to the Eurasian eagle-owl (Bubo bubo), a closely related species, which occupies the same ecological niche in Eurasia despite its notably larger size. The great horned owl is also compared to the red-tailed hawk (Buteo jamaicensis), with which it often shares similar habitat, prey, and nesting habits by day; thus the red-tailed hawk is something of a diurnal ecological equivalent. The great horned owl is one of the earliest nesting birds in North America, often laying eggs weeks or even months before other raptorial birds."
+  ],
+  "image": {
+    "src": "/img/bubo-virginianus-1200.webp",
+    "srcset": [
+      "/img/bubo-virginianus-600.webp 600w",
+      "/img/bubo-virginianus-1200.webp 1200w"
+    ],
+    "alt": "Great Horned Owl (Bubo virginianus); species reference photograph",
+    "credit": "(c) Ben Hayden, some rights reserved (CC BY), uploaded by Ben Hayden",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/79388250",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Great_horned_owl"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q81515"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/20044"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/5959118"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-10-28"
+}
