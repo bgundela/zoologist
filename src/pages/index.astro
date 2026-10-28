@@ -50,7 +50,7 @@ const themes=Object.fromEntries(catalog.map(a=>[a.id,a.theme]));
 <a class="skip-link" href="#main">Skip to today’s animal</a>
 <header class="site-header"><div class="header-inner"><a class="brand" href="/" aria-label="Zoologist home"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="2.2"><ellipse cx="8" cy="10" rx="3" ry="4" transform="rotate(-25 8 10)"/><ellipse cx="15" cy="6" rx="3" ry="4"/><ellipse cx="23" cy="9" rx="3" ry="4" transform="rotate(25 23 9)"/><path d="M9 21c0-4 3-9 7-9s8 5 8 9c0 6-5 4-8 4s-7 2-7-4Z"/></g></svg><span>Zoologist</span></a><span class="tagline">A new animal every day</span><time id="header-date" datetime="2026-10-28">Wednesday, October 28, 2026</time></div></header>
 <main id="main" class="container">
-<div id="archive-banner" class="archive-banner" hidden>From the field notes: <span></span><a href="/">Back to today ↗</a></div>
+<div id="archive-banner" class="archive-banner" hidden>From the field notes: <span></span><a href="/">Back to today</a></div>
 <div id="animal-content" aria-busy="false" set:html={renderAnimal(fixture as Animal)}/>
 <footer class="daily-footer"><div><p id="countdown-label">Next animal in</p><strong id="countdown">A little while…</strong></div><button type="button" id="share-button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 16V3m-5 5 5-5 5 5M5 13v7h14v-7"/></svg>Share today’s animal</button></footer>
 <p id="share-message" role="status" aria-live="polite"></p><p class="signoff">A little curiosity goes a long way. <span aria-hidden="true">✦</span></p>
