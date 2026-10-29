@@ -1,0 +1,255 @@
+{
+  "id": "tettigonia-viridissima",
+  "commonName": "Great Green Bush-cricket",
+  "scientificName": "Tettigonia viridissima",
+  "taxonomy": {
+    "class": "Insecta",
+    "order": "Orthoptera",
+    "family": "Tettigoniidae"
+  },
+  "category": "Insect",
+  "conservationStatus": {
+    "code": "NE",
+    "label": "Not evaluated"
+  },
+  "theme": {
+    "accent": "#81744b",
+    "tokens": {
+      "wash": "#faf9f8",
+      "soft": "#f0eee9",
+      "line": "#dcd8cd",
+      "ink": "#17150e",
+      "muted": "#413a26",
+      "deep": "#393321",
+      "on-deep": "#f2f1ed"
+    },
+    "accentDark": "#bab39c",
+    "dark": {
+      "wash": "#0d0c08",
+      "soft": "#1c1a11",
+      "line": "#474029",
+      "ink": "#f5f4f1",
+      "muted": "#d9d5c9",
+      "deep": "#2d291a",
+      "on-deep": "#f5f4f1"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": null,
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "Tettigonia viridissima is carnivorous and arboreal.",
+    "activity": "Nocturnal",
+    "activityNote": "Described in the source article",
+    "livesIn": "Trees",
+    "livesInNote": "Arboreal species"
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Netherlands",
+      "France",
+      "Germany",
+      "Switzerland",
+      "Belgium",
+      "Sweden",
+      "Austria",
+      "United Kingdom",
+      "Spain",
+      "Italy",
+      "Luxembourg",
+      "Denmark",
+      "Hungary",
+      "Russia",
+      "Portugal",
+      "Czechia",
+      "Poland",
+      "Norway",
+      "Serbia",
+      "Ukraine",
+      "Finland",
+      "Greece",
+      "Slovenia",
+      "Croatia",
+      "Romania",
+      "Slovakia",
+      "Bulgaria",
+      "Liechtenstein",
+      "Montenegro",
+      "Åland Islands",
+      "Albania",
+      "Kazakhstan",
+      "Lithuania",
+      "Estonia",
+      "Belarus",
+      "Türkiye",
+      "Georgia",
+      "Jersey",
+      "Bosnia & Herzegovina",
+      "Guernsey",
+      "Cyprus",
+      "North Macedonia",
+      "Armenia",
+      "Latvia",
+      "Moldova",
+      "Kyrgyzstan",
+      "Andorra",
+      "Kosovo",
+      "Iran",
+      "China",
+      "Israel",
+      "Uzbekistan",
+      "Azerbaijan",
+      "Ireland",
+      "Syria",
+      "Morocco",
+      "Colombia",
+      "India",
+      "Nigeria",
+      "Tajikistan",
+      "Angola",
+      "Antarctica",
+      "Madagascar",
+      "Tunisia",
+      "Unknown Region"
+    ],
+    "countries": [
+      "NL",
+      "FR",
+      "DE",
+      "CH",
+      "BE",
+      "SE",
+      "AT",
+      "GB",
+      "ES",
+      "IT",
+      "LU",
+      "DK",
+      "HU",
+      "RU",
+      "PT",
+      "CZ",
+      "PL",
+      "NO",
+      "RS",
+      "UA",
+      "FI",
+      "GR",
+      "SI",
+      "HR",
+      "RO",
+      "SK",
+      "BG",
+      "LI",
+      "ME",
+      "AX",
+      "AL",
+      "KZ",
+      "LT",
+      "EE",
+      "BY",
+      "TR",
+      "GE",
+      "JE",
+      "BA",
+      "GG",
+      "CY",
+      "MK",
+      "AM",
+      "LV",
+      "MD",
+      "KG",
+      "AD",
+      "XK",
+      "IR",
+      "CN",
+      "IL",
+      "UZ",
+      "AZ",
+      "IE",
+      "SY",
+      "MA",
+      "CO",
+      "IN",
+      "NG",
+      "TJ",
+      "AO",
+      "AQ",
+      "MG",
+      "TN",
+      "ZZ"
+    ],
+    "rangeMapUrl": "/img/tettigonia-viridissima-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "== Description == The adult males grow up to 28–36 millimetres (1.",
+      "source": "https://en.wikipedia.org/wiki/Tettigonia_viridissima"
+    },
+    {
+      "text": "The morphology of both sexes is very similar, but the female has an egg-laying organ (ovipositor) that can reach a length of 23–32 millimetres (0.",
+      "source": "https://en.wikipedia.org/wiki/Tettigonia_viridissima"
+    },
+    {
+      "text": "Unlike grasshoppers, it is essentially active by day and night, as testified by its endless crepuscular and nocturnal singing.",
+      "source": "https://en.wikipedia.org/wiki/Tettigonia_viridissima"
+    },
+    {
+      "text": "== Distribution and habitat == This species can be encountered in most of Europe, in the eastern Palearctic realm, in the Near East, and in North Africa, especially in meadows, grasslands, prairies and occasionally in gardens at an elevation up to 1,800 metres (5,900 ft) above sea level.",
+      "source": "https://en.wikipedia.org/wiki/Tettigonia_viridissima"
+    }
+  ],
+  "summary": [
+    "Tettigonia viridissima, the great green bush-cricket, is a large species of bush-cricket belonging to the subfamily Tettigoniinae.",
+    "This species can be encountered in most of Europe, in the eastern Palearctic realm, in the Near East, and in North Africa, especially in meadows, grasslands, prairies and occasionally in gardens at an elevation up to 1,800 metres (5,900 ft) above sea level."
+  ],
+  "image": {
+    "src": "/img/tettigonia-viridissima-1200.webp",
+    "srcset": [
+      "/img/tettigonia-viridissima-600.webp 600w",
+      "/img/tettigonia-viridissima-1200.webp 1200w"
+    ],
+    "alt": "Great Green Bush-cricket (Tettigonia viridissima); species reference photograph",
+    "credit": "(c) Lennart Hudel, some rights reserved (CC BY), uploaded by Lennart Hudel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/43094624",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Tettigonia_viridissima"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q261181"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/133250"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/1692898"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-10-29"
+}

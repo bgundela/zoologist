@@ -1,0 +1,152 @@
+{
+  "id": "gymnorhina-tibicen",
+  "commonName": "Australian Magpie",
+  "scientificName": "Gymnorhina tibicen",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Cracticidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#677f36",
+    "tokens": {
+      "wash": "#f9faf7",
+      "soft": "#edf0e7",
+      "line": "#d4dbc7",
+      "ink": "#13170a",
+      "muted": "#34401b",
+      "deep": "#2d3818",
+      "on-deep": "#f0f2eb"
+    },
+    "accentDark": "#abb990",
+    "dark": {
+      "wash": "#0a0d05",
+      "soft": "#171c0c",
+      "line": "#39461e",
+      "ink": "#f3f5ef",
+      "muted": "#d1d9c3",
+      "deep": "#242c13",
+      "on-deep": "#f3f5ef"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.3,
+      "max": 0.3
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "It is omnivorous, with the bulk of its varied diet made up of invertebrates.",
+    "activity": "Diurnal",
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Australia",
+      "New Zealand",
+      "Fiji",
+      "Papua New Guinea",
+      "Indonesia",
+      "United States",
+      "Japan",
+      "United Kingdom",
+      "Greece",
+      "Belgium",
+      "Netherlands",
+      "French Southern Territories"
+    ],
+    "countries": [
+      "AU",
+      "NZ",
+      "FJ",
+      "PG",
+      "ID",
+      "US",
+      "JP",
+      "GB",
+      "GR",
+      "BE",
+      "NL",
+      "TF"
+    ],
+    "rangeMapUrl": "/img/gymnorhina-tibicen-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "The adult Australian magpie is a fairly robust bird ranging from 37 to 43 cm (14.",
+      "source": "https://en.wikipedia.org/wiki/Australian_magpie"
+    },
+    {
+      "text": "5 to 17 in) in length, with black and white plumage, gold brown eyes and a solid wedge-shaped bluish-white and black bill.",
+      "source": "https://en.wikipedia.org/wiki/Australian_magpie"
+    },
+    {
+      "text": "Common and widespread, it has adapted well to human habitation and is a familiar bird of parks, gardens and farmland in Australia and New Guinea.",
+      "source": "https://en.wikipedia.org/wiki/Australian_magpie"
+    },
+    {
+      "text": "This species is commonly fed by households around Australia, but in spring (and occasionally in autumn) a small minority of breeding magpies (almost always males) become aggressive, swooping and attacking those who approach their nests.",
+      "source": "https://en.wikipedia.org/wiki/Australian_magpie"
+    }
+  ],
+  "summary": [
+    "The Australian magpie (Gymnorhina tibicen) is a black and white passerine bird native to Australia and southern New Guinea, and introduced to New Zealand, and the Fijian island of Taveuni. Although once considered to be three separate species, it is now considered to be one, with nine recognised subspecies. A member of the Artamidae, the Australian magpie is placed in its own genus Gymnorhina and is most closely related to the black butcherbird (Melloria quoyi). It is not closely related to the Eurasian magpie (Pica pica) or any other birds known as magpies, which are corvids.",
+    "The adult Australian magpie is a fairly robust bird ranging from 37 to 43 cm (14.5 to 17 in) in length, with black and white plumage, gold brown eyes and a solid wedge-shaped bluish-white and black bill. The male and female are similar in appearance, but can be distinguished by differences in back markings. The male has pure white feathers on the back of the head where the female has white blending to grey feathers. With its long legs, the Australian magpie walks rather than waddles or hops and spends much time on the ground."
+  ],
+  "image": {
+    "src": "/img/gymnorhina-tibicen-1200.webp",
+    "srcset": [
+      "/img/gymnorhina-tibicen-600.webp 600w",
+      "/img/gymnorhina-tibicen-1200.webp 1200w"
+    ],
+    "alt": "Australian Magpie (Gymnorhina tibicen); species reference photograph",
+    "credit": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY), uploaded by Saryu Mae 前 朝琉",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/314512932",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Australian_magpie"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1140949"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/8575"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2489450"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-10-29"
+}
