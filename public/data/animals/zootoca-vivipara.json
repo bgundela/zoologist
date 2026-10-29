@@ -1,0 +1,226 @@
+{
+  "id": "zootoca-vivipara",
+  "commonName": "Viviparous Lizard",
+  "scientificName": "Zootoca vivipara",
+  "taxonomy": {
+    "class": "Squamata",
+    "order": "Not well documented",
+    "family": "Lacertidae"
+  },
+  "category": "Reptile",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#7e755c",
+    "tokens": {
+      "wash": "#faf9f8",
+      "soft": "#f0eeeb",
+      "line": "#dbd8d1",
+      "ink": "#171511",
+      "muted": "#3f3b2e",
+      "deep": "#373328",
+      "on-deep": "#f2f1ef"
+    },
+    "accentDark": "#b8b3a5",
+    "dark": {
+      "wash": "#0d0c09",
+      "soft": "#1c1a14",
+      "line": "#454033",
+      "ink": "#f5f4f2",
+      "muted": "#d8d6ce",
+      "deep": "#2c2920",
+      "on-deep": "#f5f4f2"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.00561,
+      "max": 0.00561
+    },
+    "lengthCm": {
+      "min": 6.2,
+      "max": 6.2,
+      "note": "Reported length; see source"
+    },
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "Their diet consists of flies, spiders, and various other insects, including hemipterans (such as cicadas), moth larvae, and mealworms.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Netherlands",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Switzerland",
+      "Sweden",
+      "Finland",
+      "Austria",
+      "Russia",
+      "Denmark",
+      "Norway",
+      "Poland",
+      "Isle of Man",
+      "Ireland",
+      "Belgium",
+      "Spain",
+      "Ukraine",
+      "Luxembourg",
+      "Estonia",
+      "Czechia",
+      "Italy",
+      "Lithuania",
+      "Romania",
+      "Slovakia",
+      "Latvia",
+      "Belarus",
+      "Andorra",
+      "Slovenia",
+      "Liechtenstein",
+      "Bulgaria",
+      "Kazakhstan",
+      "Montenegro",
+      "Hungary",
+      "Åland Islands",
+      "Kosovo",
+      "North Macedonia",
+      "Croatia",
+      "Serbia",
+      "Bosnia & Herzegovina",
+      "Mongolia",
+      "Australia",
+      "Mexico",
+      "Albania",
+      "China",
+      "Georgia",
+      "Greece",
+      "Portugal"
+    ],
+    "countries": [
+      "NL",
+      "GB",
+      "FR",
+      "DE",
+      "CH",
+      "SE",
+      "FI",
+      "AT",
+      "RU",
+      "DK",
+      "NO",
+      "PL",
+      "IM",
+      "IE",
+      "BE",
+      "ES",
+      "UA",
+      "LU",
+      "EE",
+      "CZ",
+      "IT",
+      "LT",
+      "RO",
+      "SK",
+      "LV",
+      "BY",
+      "AD",
+      "SI",
+      "LI",
+      "BG",
+      "KZ",
+      "ME",
+      "HU",
+      "AX",
+      "XK",
+      "MK",
+      "HR",
+      "RS",
+      "BA",
+      "MN",
+      "AU",
+      "MX",
+      "AL",
+      "CN",
+      "GE",
+      "GR",
+      "PT"
+    ],
+    "rangeMapUrl": "/img/zootoca-vivipara-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "It lives farther north than any other non-marine, non-avian reptile species, and is named for the fact that it is viviparous, meaning it gives birth to live young (although they will sometimes lay eggs normally).",
+      "source": "https://en.wikipedia.org/wiki/Viviparous_lizard?oldid=1378459902"
+    },
+    {
+      "text": "The species is a predator, so it actively hunts down all of its prey.",
+      "source": "https://en.wikipedia.org/wiki/Viviparous_lizard?oldid=1378459902"
+    },
+    {
+      "text": "This refers to its ability to give birth to live young, although the lizards are also able to lay eggs.",
+      "source": "https://en.wikipedia.org/wiki/Viviparous_lizard?oldid=1378459902"
+    },
+    {
+      "text": "Zootoca vivipara lives in very cold climates, yet participates in normal thermoregulation instead of thermoconformity.",
+      "source": "https://en.wikipedia.org/wiki/Viviparous_lizard?oldid=1378459902"
+    }
+  ],
+  "summary": [
+    "The viviparous lizard or common lizard (Zootoca vivipara) is a Eurasian lizard. It lives farther north than any other non-marine, non-avian reptile species, and is named for the fact that it is viviparous, meaning it gives birth to live young (although they will sometimes lay eggs normally). Both \"Zootoca\" and \"vivipara\" mean \"live birth\", in (Latinized) Greek and Latin respectively. It was called Lacerta vivipara until the genus Lacerta was split into nine genera in 2007 by Arnold, Arribas & Carranza.",
+    "Zootoca vivipara lives in very cold climates, yet participates in normal thermoregulation instead of thermoconformity. They have the largest range of all terrestrial lizards which even include subarctic regions. It is able to survive these harsh climates as individuals will freeze in especially cold seasons and thaw two months later. They also live closer to geological phenomena that provide a warmer environment for them."
+  ],
+  "image": {
+    "src": "/img/zootoca-vivipara-1200.webp",
+    "srcset": [
+      "/img/zootoca-vivipara-600.webp 600w",
+      "/img/zootoca-vivipara-1200.webp 1200w"
+    ],
+    "alt": "Viviparous Lizard (Zootoca vivipara); species reference photograph",
+    "credit": "(c) nearwildhelen, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/48751935",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Viviparous_lizard?oldid=1378459902"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q204061"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/35453"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/9702100"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-10-29"
+}
