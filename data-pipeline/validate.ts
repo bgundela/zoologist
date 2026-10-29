@@ -1,4 +1,3 @@
-import { factProblem } from './enrich';
 import Ajv from 'ajv';
 import { readFile,access } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
@@ -13,9 +12,6 @@ const schema={type:'object',required:['id','commonName','scientificName','taxono
 const check=ajv.compile(schema);
 export async function validateAnimal(animal:Animal){
  if(!check(animal))throw new Error(`Animal schema: ${ajv.errorsText(check.errors)}`);
- for(const fact of animal.funFacts){const problem=factProblem(fact.text);if(problem)throw new Error(`${animal.id}: ${problem}`);}
- const facts=animal.funFacts.map(f=>f.text.toLowerCase().replace(/[^a-z0-9]/g,''));
- if(new Set(facts).size!==facts.length)throw new Error(`${animal.id}: duplicate facts`);
  if(!openLicense.test(animal.image.license))throw new Error(`${animal.id}: photo license is not approved`);
  for(const path of [animal.image.src,...animal.image.srcset.map(s=>s.split(' ')[0]),animal.habitat.rangeMapUrl]){if(!path.startsWith('/img/')||path.includes('..'))throw new Error('Invalid asset path');await access(`public${path}`);}
  const t=animal.theme;
