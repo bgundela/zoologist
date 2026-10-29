@@ -84,7 +84,7 @@
       "source": "https://en.wikipedia.org/wiki/Barred_owl"
     },
     {
-      "text": "== Basics == The barred owl was first described by Philadelphia naturalist Benjamin Smith Barton in 1799.",
+      "text": "The barred owl was first described by Philadelphia naturalist Benjamin Smith Barton in 1799.",
       "source": "https://en.wikipedia.org/wiki/Barred_owl"
     },
     {
@@ -92,7 +92,7 @@
       "source": "https://en.wikipedia.org/wiki/Barred_owl"
     },
     {
-      "text": "varia (Barton, 1799): The northern barred owl lives throughout the Northeastern United States and the Upper Midwest, ranging as far south as Oklahoma, the Carolinas, and northern Georgia.",
+      "text": "The northern barred owl lives throughout the Northeastern United States and the Upper Midwest, ranging as far south as Oklahoma, the Carolinas, and northern Georgia.",
       "source": "https://en.wikipedia.org/wiki/Barred_owl"
     }
   ],
@@ -136,6 +136,6 @@
     }
   ],
   "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
-  "reviewed": false,
+  "reviewed": true,
   "updatedAt": "2026-10-28"
 }

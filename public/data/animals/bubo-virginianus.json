@@ -136,7 +136,7 @@
       "source": "https://en.wikipedia.org/wiki/Great_horned_owl"
     },
     {
-      "text": "== Taxonomy == The great horned owl was formally described in 1788 by the German naturalist Johann Friedrich Gmelin in his revised and expanded edition of Carl Linnaeus's Systema Naturae.",
+      "text": "The great horned owl was formally described in 1788 by the German naturalist Johann Friedrich Gmelin in his revised and expanded edition of Carl Linnaeus's Systema Naturae.",
       "source": "https://en.wikipedia.org/wiki/Great_horned_owl"
     },
     {
@@ -184,6 +184,6 @@
     }
   ],
   "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
-  "reviewed": false,
+  "reviewed": true,
   "updatedAt": "2026-10-28"
 }

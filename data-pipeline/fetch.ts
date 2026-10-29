@@ -1,5 +1,5 @@
 import { json,request } from './http';
-import { extractFacts,nicheScore } from './enrich';
+import { extractFacts,nicheScore,explicitTraits } from './enrich';
 import type { Candidate } from './discover';
 import type { Animal } from './types';
 import { processImage,openLicense } from './images';
@@ -25,10 +25,12 @@ export async function fetchAnimal(candidate:Candidate,accent?:string):Promise<{a
  const gbif=await json(`https://api.gbif.org/v1/species/match?name=${encodeURIComponent(candidate.name)}&rank=SPECIES&kingdom=Animalia&strict=true`);
  if(gbif.matchType!=='EXACT'||gbif.rank!=='SPECIES'||gbif.status!=='ACCEPTED')throw new Error('Species is not an exact accepted GBIF match');
  const articleTitle=decodeURIComponent(new URL(taxon.wikipedia_url).pathname.split('/wiki/')[1]);
- const wiki=await json(`https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts%7Cpageprops&explaintext=1&redirects=1&titles=${encodeURIComponent(articleTitle)}`);
+ const wiki=await json(`https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts%7Cpageprops%7Crevisions&rvprop=ids&explaintext=1&redirects=1&titles=${encodeURIComponent(articleTitle)}`);
  const page:any=Object.values(wiki.query.pages)[0];
  const text=page.extract||'';if(text.length<2000)throw new Error('Article too short');
- const source=`https://en.wikipedia.org/wiki/${encodeURIComponent(page.title.replaceAll(' ','_'))}`;
+ const revision=page.revisions?.[0]?.revid;
+ if(!revision)throw new Error('Missing Wikipedia source revision');
+ const source=`https://en.wikipedia.org/wiki/${encodeURIComponent(page.title.replaceAll(' ','_'))}?oldid=${revision}`;
  const article=text.split(/\n== (?:References|Notes|Bibliography|External links) ==/i)[0];
  const facts=extractFacts(article,source);if(facts.length<3)throw new Error('Fewer than three sourceable facts');
  const qid=page.pageprops?.wikibase_item;if(!qid)throw new Error('No Wikidata entity');
@@ -40,8 +42,9 @@ export async function fetchAnimal(candidate:Candidate,accent?:string):Promise<{a
  const intro=text.split('\n').filter((p:string)=>p.length>100&&!p.startsWith('==')).slice(0,2);
  // Only use explicit sourced descriptions; never infer a diet/activity from taxonomy.
  const dietSentence=text.match(/[^.!?\n]*\b(?:diet consists|feeds (?:mainly |primarily )?on|diet includes|is (?:an? )?(?:omnivor|carnivor|herbivor))[^.!?\n]*[.!?]/i)?.[0]?.trim()||null;
- const activity=/\bnocturnal\b/i.test(text)?'Nocturnal':/\bdiurnal\b/i.test(text)?'Diurnal':null;
- const arboreal=/\barboreal\b/i.test(text)?'Trees':null;
+ const traits=explicitTraits(text,[taxon.preferred_common_name,candidate.name]);
+ const activity=traits.activity;
+ const arboreal=traits.livesIn;
  const count=[weight,length,lifespan,dietSentence,activity,arboreal].filter(Boolean).length;
  if(count<3)throw new Error('Insufficient documented quick stats');
  let photo:any;

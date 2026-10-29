@@ -47,10 +47,10 @@
     },
     "diet": null,
     "dietNote": "",
-    "activity": "Nocturnal",
-    "activityNote": "Described in the source article",
-    "livesIn": "Trees",
-    "livesInNote": "Arboreal species"
+    "activity": "Diurnal",
+    "activityNote": "Active during the day; rests at night",
+    "livesIn": null,
+    "livesInNote": ""
   },
   "habitat": {
     "types": [
@@ -87,20 +87,20 @@
   },
   "funFacts": [
     {
-      "text": "It is a permanent resident throughout most of its range, though northern birds do migrate, mostly to central Mexico.",
-      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk"
+      "text": "Red-shouldered hawks search for prey while perched on a treetop or soaring over woodlands.",
+      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk?oldid=1380716793"
     },
     {
-      "text": "== Taxonomy == The red-shouldered hawk was formally described in 1788 by the German naturalist Johann Friedrich Gmelin in his revised and expanded edition of Carl Linnaeus's Systema Naturae.",
-      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk"
+      "text": "They often use the same nest year after year, refurbishing it annually with sticks in the spring.",
+      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk?oldid=1380716793"
     },
     {
-      "text": "The red-shouldered hawk is now placed with 27 other species in the genus Buteo that was introduced in 1799 by Bernard Germain de Lacépède.",
-      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk"
+      "text": "Males may also perform the \"sky-dance\" by soaring high in the air, and then making a series of steep dives, each followed by a wide spiral and rapid ascent.",
+      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk?oldid=1380716793"
     },
     {
-      "text": "alleni Ridgway, 1885 – central south Texas to North Carolina and north Florida (USA) B.",
-      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk"
+      "text": "Red-shouldered hawks are short- to moderate-distance migrants, with most individuals traveling distances between 300 and 1,500 km each way.",
+      "source": "https://en.wikipedia.org/wiki/Red-shouldered_hawk?oldid=1380716793"
     }
   ],
   "summary": [
@@ -140,9 +140,13 @@
     {
       "label": "Map attribution",
       "url": "https://tile.gbif.org/ui/"
+    },
+    {
+      "label": "Texas Parks & Wildlife (activity)",
+      "url": "https://tpwd.texas.gov/huntwild/wild/species/redshoulderedhawk/"
     }
   ],
   "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
   "reviewed": false,
-  "updatedAt": "2026-10-28"
+  "updatedAt": "2026-10-29"
 }

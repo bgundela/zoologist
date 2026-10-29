@@ -47,8 +47,8 @@
     },
     "diet": "See diet below",
     "dietNote": "It is a primarily herbivorous, crepuscular mammal that feeds on grasses, herbs, twigs, and bark, and plays an important role in the ecosystem as prey for a variety of predators including foxes, hawks, and owls.",
-    "activity": "Nocturnal",
-    "activityNote": "Described in the source article",
+    "activity": "Crepuscular",
+    "activityNote": "Explicitly described in the source article",
     "livesIn": null,
     "livesInNote": ""
   },
@@ -102,19 +102,19 @@
   "funFacts": [
     {
       "text": "It is a primarily herbivorous, crepuscular mammal that feeds on grasses, herbs, twigs, and bark, and plays an important role in the ecosystem as prey for a variety of predators including foxes, hawks, and owls.",
-      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail"
+      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail?oldid=1371889828"
     },
     {
-      "text": "Due to its adaptability to human-altered landscapes such as suburban and agricultural areas, the eastern cottontail has maintained stable population levels and is not considered threatened.",
-      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail"
+      "text": "The eastern cottontail has a distinctive white spot on its forehead when young and fur that ranges from reddish-brown to grayish-brown, with large hind feet, long ears, and a short, fluffy white tail.",
+      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail?oldid=1371889828"
     },
     {
-      "text": "It was first formally described by French naturalist Charles Alexandre Lesueur in 1827.",
-      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail"
+      "text": "Cottontails favor habitats where they can feed in the open but quickly retreat to cover when threatened.",
+      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail?oldid=1371889828"
     },
     {
-      "text": "The genus Sylvilagus includes around 15 species of New World cottontail rabbits, which are widespread throughout the Americas.",
-      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail"
+      "text": "Eastern cottontails are mostly crepuscular and nocturnal, foraging primarily at dawn, dusk, and night.",
+      "source": "https://en.wikipedia.org/wiki/Eastern_cottontail?oldid=1371889828"
     }
   ],
   "summary": [
@@ -158,5 +158,5 @@
   ],
   "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
   "reviewed": false,
-  "updatedAt": "2026-10-28"
+  "updatedAt": "2026-10-29"
 }
