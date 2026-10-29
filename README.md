@@ -1,3 +1,5 @@
+My favorite show as a kid was Wild Kratts.
+
 # Zoologist
 
 Zoologist introduces one animal each day through photography, facts, and information about its habitat, diet, size, and conservation status. Each daily feature includes sources and photo credits, with dated links for sharing past discoveries.
