@@ -1,0 +1,141 @@
+{
+  "id": "strix-varia",
+  "commonName": "Barred Owl",
+  "scientificName": "Strix varia",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Strigiformes",
+    "family": "Strigidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#687838",
+    "tokens": {
+      "wash": "#f9faf7",
+      "soft": "#edefe7",
+      "line": "#d5d9c7",
+      "ink": "#13160a",
+      "muted": "#343c1c",
+      "deep": "#2e3519",
+      "on-deep": "#f0f2eb"
+    },
+    "accentDark": "#acb592",
+    "dark": {
+      "wash": "#0a0c06",
+      "soft": "#171a0c",
+      "line": "#39421f",
+      "ink": "#f3f4ef",
+      "muted": "#d2d7c3",
+      "deep": "#242a14",
+      "on-deep": "#f3f4ef"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": null,
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "Their diet consists mainly of small mammals, but this species is an opportunistic predator and is known to prey upon other small vertebrates such as birds, reptiles, and amphibians, as well as a variety of invertebrates.",
+    "activity": "Nocturnal",
+    "activityNote": "Described in the source article",
+    "livesIn": "Trees",
+    "livesInNote": "Arboreal species"
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Guatemala",
+      "Greece",
+      "Australia",
+      "Bermuda",
+      "Honduras"
+    ],
+    "countries": [
+      "US",
+      "CA",
+      "MX",
+      "GT",
+      "GR",
+      "AU",
+      "BM",
+      "HN"
+    ],
+    "rangeMapUrl": "/img/strix-varia-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "Evidence shows the assorted threats posed by the invading barred species are only increasing.",
+      "source": "https://en.wikipedia.org/wiki/Barred_owl"
+    },
+    {
+      "text": "== Basics == The barred owl was first described by Philadelphia naturalist Benjamin Smith Barton in 1799.",
+      "source": "https://en.wikipedia.org/wiki/Barred_owl"
+    },
+    {
+      "text": "Although several have been described in the past, the barred owl may include only three subspecies, subsequent to the separation of the fulvous and cinereous forms.",
+      "source": "https://en.wikipedia.org/wiki/Barred_owl"
+    },
+    {
+      "text": "varia (Barton, 1799): The northern barred owl lives throughout the Northeastern United States and the Upper Midwest, ranging as far south as Oklahoma, the Carolinas, and northern Georgia.",
+      "source": "https://en.wikipedia.org/wiki/Barred_owl"
+    }
+  ],
+  "summary": [
+    "The barred owl (Strix varia), also known as the northern barred owl, striped owl, or more informally, hoot owl or eight hooter, is a North American large species of owl. A member of the true owl family, Strigidae, they belong to the genus Strix, which is also the origin of the family's name under Linnaean taxonomy. Barred owls are largely native to eastern North America, but have expanded their range to the West Coast of North America, where they are considered invasive. Mature forests are their preferred habitat, but they can also acclimate to various gradients of open woodlands. Their diet consists mainly of small mammals, but this species is an opportunistic predator and is known to prey upon other small vertebrates such as birds, reptiles, and amphibians, as well as a variety of invertebrates.",
+    "Barred owls are brown to gray overall, with dark striping on the underside. They have typical nesting habits for a true owl, tending to raise a relatively small brood often in a tree hollow or snag (but sometimes also in other nesting sites) in forested areas. As a result of the barred owl's westward expansion, the species has begun to encroach on the range of the related and threatened spotted owl (S. occidentalis). Evidence shows the assorted threats posed by the invading barred species are only increasing. In response, biologists have recommended culling operations to mitigate their negative effect on the spotted owl species."
+  ],
+  "image": {
+    "src": "/img/strix-varia-1200.webp",
+    "srcset": [
+      "/img/strix-varia-600.webp 600w",
+      "/img/strix-varia-1200.webp 1200w"
+    ],
+    "alt": "Barred Owl (Strix varia); species reference photograph",
+    "credit": "(c) Bill Majoros, some rights reserved (CC BY-SA)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/10214389",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Barred_owl"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q630457"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/19893"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2497541"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-10-28"
+}
