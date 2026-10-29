@@ -1,3 +1,4 @@
+import { backfillElapsedDays } from './scheduling';
 import { readFile,writeFile,rename } from 'node:fs/promises';
 import { discoverCandidates,type Candidate } from './discover';
 import { fetchAnimal } from './fetch';
@@ -10,8 +11,8 @@ const overrides=JSON.parse(await readFile('data-pipeline/overrides.json','utf8')
 const today=localDate();
 const current=Math.max(0,dayIndex(today,schedule.launch));
 const target=current+15;
-// Fill elapsed fixture days without changing any existing entry. Never wrap the schedule.
-while(schedule.order.length<=current)schedule.order.push(schedule.fallback);
+// Backfill only elapsed days; new discoveries can fill an unassigned current day.
+schedule.order=backfillElapsedDays(schedule.order,current,schedule.fallback);
 const used=new Set<string>(schedule.order);
 const usedNames=new Set<string>();
 for(const id of used){const a=JSON.parse(await readFile(`public/data/animals/${id}.json`,'utf8'));usedNames.add(a.scientificName);}

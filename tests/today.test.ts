@@ -42,3 +42,18 @@ test('automated publishing preserves historical selections and rejects repeated 
  assert.throws(()=>verifyAppendOnly(before,{...before,launch:'2026-01-01'}),/launch/);
  assert.throws(()=>verifyAppendOnly(before,{...before,order:[...before.order,'bird']}),/repeated/);
 });
+
+import { backfillElapsedDays } from '../data-pipeline/scheduling';
+test('discovery leaves an unassigned current day open instead of repeating the fallback',()=>{
+ const original=['aye-aye'];
+ // Oct 29 is day 1, including when the UTC+14 workflow reaches it before Los Angeles.
+ const order=backfillElapsedDays(original,1,'aye-aye');
+ assert.deepEqual(order,['aye-aye']);
+ order.push('buteo-lineatus');
+ assert.equal(selectDay({launch:'2026-10-28',fallback:'aye-aye',order},null,new Date(2026,9,29,12)).id,'buteo-lineatus');
+ assert.deepEqual(original,['aye-aye']);
+});
+test('discovery backfills missing past days while preserving existing assignments',()=>{
+ assert.deepEqual(backfillElapsedDays(['aye-aye'],3,'aye-aye'),['aye-aye','aye-aye','aye-aye']);
+ assert.deepEqual(backfillElapsedDays(['aye-aye','bird','fish'],1,'aye-aye'),['aye-aye','bird','fish']);
+});
