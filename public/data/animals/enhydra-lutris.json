@@ -1,0 +1,150 @@
+{
+  "id": "enhydra-lutris",
+  "commonName": "Sea Otter",
+  "scientificName": "Enhydra lutris",
+  "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Mustelidae"
+  },
+  "category": "Mammal",
+  "conservationStatus": {
+    "code": "NE",
+    "label": "Not evaluated"
+  },
+  "theme": {
+    "accent": "#586878",
+    "tokens": {
+      "wash": "#f8f9fa",
+      "soft": "#ebedef",
+      "line": "#d0d5d9",
+      "ink": "#101316",
+      "muted": "#2c343c",
+      "deep": "#272e35",
+      "on-deep": "#eef0f2"
+    },
+    "accentDark": "#a3acb5",
+    "dark": {
+      "wash": "#090a0c",
+      "soft": "#13171a",
+      "line": "#303942",
+      "ink": "#f2f3f4",
+      "muted": "#cdd2d7",
+      "deep": "#1f242a",
+      "on-deep": "#f2f3f4"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 32.5,
+      "max": 45
+    },
+    "lengthCm": {
+      "min": 140,
+      "max": 148,
+      "note": "Reported length; see source"
+    },
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "Its diet includes prey species that are also valued by humans as food, leading to conflicts between sea otters and fisheries.",
+    "activity": "Diurnal",
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "United States",
+      "Canada",
+      "Russia",
+      "Japan",
+      "Mexico",
+      "Germany",
+      "United Kingdom",
+      "Norway",
+      "Unknown Region"
+    ],
+    "countries": [
+      "US",
+      "CA",
+      "RU",
+      "JP",
+      "MX",
+      "DE",
+      "GB",
+      "NO",
+      "ZZ"
+    ],
+    "rangeMapUrl": "/img/enhydra-lutris-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "After the years of the Great Hunt, the population in these areas, currently part of Russia, was only 750.",
+      "source": "https://en.wikipedia.org/wiki/Sea_otter?oldid=1380704554"
+    },
+    {
+      "text": "By 1817, sea otters in the area were practically eliminated and the Russians sought permission from the Spanish and the Mexican governments to hunt further and further south of San Francisco.",
+      "source": "https://en.wikipedia.org/wiki/Sea_otter?oldid=1380704554"
+    },
+    {
+      "text": "On land, young sea otters may face attack from bears and coyotes.",
+      "source": "https://en.wikipedia.org/wiki/Sea_otter?oldid=1380704554"
+    },
+    {
+      "text": "In the early 18th century, Russians began to hunt sea otters in the Kuril Islands and sold them to the Chinese at Kyakhta.",
+      "source": "https://en.wikipedia.org/wiki/Sea_otter?oldid=1380704554"
+    }
+  ],
+  "summary": [
+    "The sea otter (Enhydra lutris) is a marine mammal native to the coasts of the northern and eastern North Pacific Ocean. Adult sea otters typically weigh between 14 and 45 kg (30–100 lb), making them the heaviest members of the weasel family, but among the smallest marine mammals. Unlike most marine mammals, the sea otter's primary form of insulation is an exceptionally thick coat of fur, the densest in the animal kingdom. Although it can walk on land, the sea otter is capable of living exclusively in the ocean.",
+    "The sea otter inhabits nearshore environments, where it dives to the sea floor to forage. It preys mostly on marine invertebrates such as sea urchins, various mollusks and crustaceans, and some species of fish. Its foraging and eating habits are noteworthy in several respects. Its use of rocks to dislodge prey and to open shells makes it one of the few mammal species to use tools. In most of its range, it is a keystone species, controlling sea urchin populations which would otherwise inflict extensive damage to kelp forest ecosystems. Its diet includes prey species that are also valued by humans as food, leading to conflicts between sea otters and fisheries."
+  ],
+  "image": {
+    "src": "/img/enhydra-lutris-1200.webp",
+    "srcset": [
+      "/img/enhydra-lutris-600.webp 600w",
+      "/img/enhydra-lutris-1200.webp 1200w"
+    ],
+    "alt": "Sea Otter (Enhydra lutris); species reference photograph",
+    "credit": "(c) Marshal Hedin, some rights reserved (CC BY-SA)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/311432614",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Sea_otter?oldid=1380704554"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q41407"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/41860"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2433670"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-04"
+}
