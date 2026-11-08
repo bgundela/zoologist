@@ -1,0 +1,134 @@
+{
+  "id": "bassariscus-astutus",
+  "commonName": "Ringtail",
+  "scientificName": "Bassariscus astutus",
+  "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Procyonidae"
+  },
+  "category": "Mammal",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.87,
+      "max": 1.1
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "However, the ringtail is omnivorous, as are all procyonids.",
+    "activity": "Nocturnal",
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Mexico",
+      "United States",
+      "Canada"
+    ],
+    "countries": [
+      "MX",
+      "US",
+      "CA"
+    ],
+    "rangeMapUrl": "/img/bassariscus-astutus-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "Ringtails are primarily nocturnal, with large eyes and upright ears that make it easier for them to navigate and forage in the dark.",
+      "source": "https://en.wikipedia.org/wiki/Ringtail?oldid=1376225921"
+    },
+    {
+      "text": "The cubs open their eyes after one month, and will hunt for themselves after four months.",
+      "source": "https://en.wikipedia.org/wiki/Ringtail?oldid=1376225921"
+    },
+    {
+      "text": "The ringtail is commonly found in rocky desert habitats, where it nests in the hollows of trees or abandoned wooden structures.",
+      "source": "https://en.wikipedia.org/wiki/Ringtail?oldid=1376225921"
+    },
+    {
+      "text": "The ringtail (Bassariscus astutus) is a mammal of the raccoon family native to arid regions of North America.",
+      "source": "https://en.wikipedia.org/wiki/Ringtail?oldid=1376225921"
+    }
+  ],
+  "summary": [
+    "The ringtail (Bassariscus astutus) is a mammal of the raccoon family native to arid regions of North America. It is widely distributed and well-adapted to its distributed areas. It has been legally trapped for its fur. Globally, it is listed as Least Concern on the IUCN Red List but is a Conservation Strategy Species in Oregon and Fully Protected in California. The ringtail is the state mammal of Arizona.",
+    "The species is known by a variety of common names, such as ring-tailed cat, miner's cat, civet cat, and cacomistle (or cacomixtle), though as a relative of the raccoon, the ringtail is only distantly related to Feliform true cats and civets, and \"cacomistle\" can also refer to B. sumichrasti."
+  ],
+  "image": {
+    "src": "/img/bassariscus-astutus-1200.webp",
+    "srcset": [
+      "/img/bassariscus-astutus-600.webp 600w",
+      "/img/bassariscus-astutus-1200.webp 1200w"
+    ],
+    "alt": "Ringtail (Bassariscus astutus); species reference photograph",
+    "credit": "(c) Brooke Smith, some rights reserved (CC BY), uploaded by Brooke Smith",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/171656527",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Ringtail?oldid=1376225921"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q632701"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/41676"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2433557"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-08"
+}
