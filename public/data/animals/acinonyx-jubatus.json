@@ -1,0 +1,186 @@
+{
+  "id": "acinonyx-jubatus",
+  "commonName": "Cheetah",
+  "scientificName": "Acinonyx jubatus",
+  "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae"
+  },
+  "category": "Mammal",
+  "conservationStatus": {
+    "code": "VU",
+    "label": "Vulnerable"
+  },
+  "theme": {
+    "accent": "#817466",
+    "tokens": {
+      "wash": "#faf9f9",
+      "soft": "#f0eeed",
+      "line": "#dcd8d4",
+      "ink": "#171512",
+      "muted": "#413a33",
+      "deep": "#39332d",
+      "on-deep": "#f2f1f0"
+    },
+    "accentDark": "#bab3ab",
+    "dark": {
+      "wash": "#0d0c0a",
+      "soft": "#1c1a16",
+      "line": "#474038",
+      "ink": "#f5f4f3",
+      "muted": "#d9d5d1",
+      "deep": "#2d2924",
+      "on-deep": "#f5f4f3"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 35,
+      "max": 40.2
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "It feeds on small- to medium-sized prey, mostly weighing under 40 kg (88 lb), and prefers medium-sized ungulates such as impala, springbok and Thomson's gazelles.",
+    "activity": "Diurnal",
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "South Africa",
+      "Kenya",
+      "Tanzania",
+      "Namibia",
+      "Botswana",
+      "Benin",
+      "United States",
+      "Malawi",
+      "Zimbabwe",
+      "Iran",
+      "Zambia",
+      "Angola",
+      "Niger",
+      "Australia",
+      "Somalia",
+      "Chad",
+      "Uganda",
+      "Algeria",
+      "Netherlands",
+      "South Sudan",
+      "Congo - Kinshasa",
+      "Germany",
+      "India",
+      "Iraq",
+      "Egypt",
+      "Ethiopia",
+      "Mozambique",
+      "Nigeria",
+      "Palestinian Territories"
+    ],
+    "countries": [
+      "ZA",
+      "KE",
+      "TZ",
+      "NA",
+      "BW",
+      "BJ",
+      "US",
+      "MW",
+      "ZW",
+      "IR",
+      "ZM",
+      "AO",
+      "NE",
+      "AU",
+      "SO",
+      "TD",
+      "UG",
+      "DZ",
+      "NL",
+      "SS",
+      "CD",
+      "DE",
+      "IN",
+      "IQ",
+      "EG",
+      "ET",
+      "MZ",
+      "NG",
+      "PS"
+    ],
+    "rangeMapUrl": "/img/acinonyx-jubatus-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "It feeds on small- to medium-sized prey, mostly weighing under 40 kg (88 lb), and prefers medium-sized ungulates such as impala, springbok and Thomson's gazelles.",
+      "source": "https://en.wikipedia.org/wiki/Cheetah?oldid=1380372320"
+    },
+    {
+      "text": "The average temperature of a few cheetahs measured after hunts is 38.6 °C (101.5 °F), suggesting that intense physical activity does not cause overheating.",
+      "source": "https://en.wikipedia.org/wiki/Cheetah?oldid=1380372320"
+    },
+    {
+      "text": "Cheetahs equipped with GPS collars hunted at speeds lower than the highest speeds attained; the average running speed recorded during hunts was 54 km/h (34 mph), while the highest speed recorded was 93 km/h (58 mph).",
+      "source": "https://en.wikipedia.org/wiki/Cheetah?oldid=1380372320"
+    },
+    {
+      "text": "The cheetah is a vocal cat with a broad repertoire of calls and sounds; the acoustic features and the use of many of these have been studied in detail.",
+      "source": "https://en.wikipedia.org/wiki/Cheetah?oldid=1380372320"
+    }
+  ],
+  "summary": [
+    "The cheetah (Acinonyx jubatus) is a species of large feline and the only living member of the genus Acinonyx. The cheetah is a pursuit predator and the fastest land animal, capable of running at 93–104 km/h (58–65 mph); it has evolved for speed, having powerful hindlimb muscles and a long lumbar spine. The cheetah has a tawny to creamy white or pale buff fur that is marked with evenly spaced, solid black spots. The head is small and rounded, with a short snout and black tear-like facial streaks. It has a height of 67–94 cm (2.20–3.08 ft) at the shoulder, and the head-and-body length is between 1.1 and 1.5 m (3 ft 7 in and 4 ft 11 in). Adults weigh between 21 and 65 kg (46 and 143 lb).",
+    "The cheetah was first scientifically described in the late 18th century. Four subspecies are recognised today that are native to Africa and central Iran. An African subspecies was introduced to India in 2022. It is now distributed mainly in small, fragmented populations in northwestern, eastern and southern Africa and central Iran. It lives in a variety of habitats such as savannahs in the Serengeti, arid mountain ranges in the Sahara, and hilly desert terrain."
+  ],
+  "image": {
+    "src": "/img/acinonyx-jubatus-1200.webp",
+    "srcset": [
+      "/img/acinonyx-jubatus-600.webp 600w",
+      "/img/acinonyx-jubatus-1200.webp 1200w"
+    ],
+    "alt": "Cheetah (Acinonyx jubatus); species reference photograph",
+    "credit": "(c) Bernard DUPONT, some rights reserved (CC BY-SA)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/123082309",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Cheetah?oldid=1380372320"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q23907"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/41955"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2435270"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-14"
+}
