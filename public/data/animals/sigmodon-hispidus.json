@@ -1,0 +1,152 @@
+{
+  "id": "sigmodon-hispidus",
+  "commonName": "Hispid Cotton Rat",
+  "scientificName": "Sigmodon hispidus",
+  "taxonomy": {
+    "class": "Mammalia",
+    "order": "Rodentia",
+    "family": "Cricetidae"
+  },
+  "category": "Mammal",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.1,
+      "max": 0.225
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "Hispid cotton rats are omnivorous, but the major portion of their diet consists of green vegetation.",
+    "activity": "Nocturnal",
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "United States",
+      "Mexico",
+      "Costa Rica",
+      "Venezuela",
+      "Colombia",
+      "Guatemala",
+      "Panama",
+      "Belize",
+      "Honduras",
+      "Nicaragua",
+      "Ecuador",
+      "China"
+    ],
+    "countries": [
+      "US",
+      "MX",
+      "CR",
+      "VE",
+      "CO",
+      "GT",
+      "PA",
+      "BZ",
+      "HN",
+      "NI",
+      "EC",
+      "CN"
+    ],
+    "rangeMapUrl": "/img/sigmodon-hispidus-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "On the southern Coastal Plain, hispid cotton rats use gopher tortoise (Gopherus polyphemus) burrows for shelter in sandhill scrub dominated by longleaf pine, bluejack oak (Quercus incana) and sand post oak (Q. stellata ssp. margaretta).",
+      "source": "https://en.wikipedia.org/wiki/Hispid_cotton_rat?oldid=1376363675"
+    },
+    {
+      "text": "Hispid cotton rats are mainly nocturnal, but activity has been observed at all hours.",
+      "source": "https://en.wikipedia.org/wiki/Hispid_cotton_rat?oldid=1376363675"
+    },
+    {
+      "text": "A nest is constructed by the female either on the ground surface or in a burrow.",
+      "source": "https://en.wikipedia.org/wiki/Hispid_cotton_rat?oldid=1376363675"
+    },
+    {
+      "text": "Litter sizes range from one to 15 young, with larger litters more typical of northern populations and also of late-season litters.",
+      "source": "https://en.wikipedia.org/wiki/Hispid_cotton_rat?oldid=1376363675"
+    }
+  ],
+  "summary": [
+    "The hispid cotton rat  (Sigmodon hispidus) is a rat long thought to occur in parts of South America, Central America, and southern North America. However, recent taxonomic revisions, based on mitochondrial DNA sequence data, have split this widely distributed species into three separate species (S. hispidus, S. toltecus, and S. hirsutus). The distribution of S. hispidus ranges from Arizona in the west to Virginia to the east and from the Platte River in Nebraska in the north to, likely, the Rio Grande in the south, where it meets the northern edge of the distribution of S. toltecus (formerly S. h. toltecus). Adult size is total length 202–340 mm (8.0–13.4 in); tail 87–122 mm (3.4–4.8 in), frequently broken or stubbed; hind foot 29–35 mm (1.1–1.4 in); ear 16–20 mm (0.63–0.79 in); mass 50–250 g (1.8–8.8 oz). They have been used as laboratory animals.",
+    "The currently accepted scientific name for the hispid cotton rat is Sigmodon hispidus. It is a member of the family Cricetidae. Although 25 subspecies are accepted, including the type subspecies, the most distinct genetic subdivision within S. hispidus separates the species into two genetic lineages, an eastern one and a western one, which hybridize along a contact zone."
+  ],
+  "image": {
+    "src": "/img/sigmodon-hispidus-1200.webp",
+    "srcset": [
+      "/img/sigmodon-hispidus-600.webp 600w",
+      "/img/sigmodon-hispidus-1200.webp 1200w"
+    ],
+    "alt": "Hispid Cotton Rat (Sigmodon hispidus); species reference photograph",
+    "credit": "(c) Juan Cruzado Cortés, some rights reserved (CC BY-SA), uploaded by Juan Cruzado Cortés",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/2142251",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Hispid_cotton_rat?oldid=1376363675"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q941564"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/44902"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2438147"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-15"
+}
