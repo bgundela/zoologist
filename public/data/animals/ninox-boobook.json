@@ -1,0 +1,140 @@
+{
+  "id": "ninox-boobook",
+  "commonName": "Australian Boobook",
+  "scientificName": "Ninox boobook",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Strigiformes",
+    "family": "Strigidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.252,
+      "max": 0.316
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "The Australian boobook feeds on insects and small vertebrates, hunting by pouncing on them from tree perches.",
+    "activity": "Nocturnal",
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Australia",
+      "Indonesia",
+      "Timor-Leste",
+      "Belgium",
+      "United Kingdom",
+      "Papua New Guinea"
+    ],
+    "countries": [
+      "AU",
+      "ID",
+      "TL",
+      "BE",
+      "GB",
+      "PG"
+    ],
+    "rangeMapUrl": "/img/ninox-boobook-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "It is generally nocturnal, though sometimes it is active at dawn and dusk, retiring to roost in secluded spots in the foliage of trees.",
+      "source": "https://en.wikipedia.org/wiki/Australian_boobook?oldid=1384597766"
+    },
+    {
+      "text": "It has short, rounded wings and a short tail, with a compact silhouette in flight.",
+      "source": "https://en.wikipedia.org/wiki/Australian_boobook?oldid=1384597766"
+    },
+    {
+      "text": "The Australian boobook has generally dark brown head and upperparts, with white markings on the scapulars and spots on the wings.",
+      "source": "https://en.wikipedia.org/wiki/Australian_boobook?oldid=1384597766"
+    },
+    {
+      "text": "Young Australian boobooks are usually paler than adults and do not attain adult plumage properly until their third or fourth year.",
+      "source": "https://en.wikipedia.org/wiki/Australian_boobook?oldid=1384597766"
+    }
+  ],
+  "summary": [
+    "The Australian boobook (Ninox boobook) is a species of owl native to mainland Australia, southern New Guinea, the island of Timor, and the Sunda Islands. Described by John Latham in 1801, it was generally considered to be the same species as the morepork of New Zealand until 1999. Its name is derived from its two-tone boo-book call. Eight subspecies of the Australian boobook are recognized, with three further subspecies being reclassified as separate species in 2019 due to their distinctive calls and genetics.",
+    "The smallest owl on the Australian mainland, the Australian boobook is 27 to 36 cm (10.5 to 14 in) long, with predominantly dark-brown plumage with prominent pale spots. It has grey-green or yellow-green eyes. It is generally nocturnal, though sometimes it is active at dawn and dusk, retiring to roost in secluded spots in the foliage of trees. The Australian boobook feeds on insects and small vertebrates, hunting by pouncing on them from tree perches. Breeding takes place from late winter to early summer, using tree hollows as nesting sites. The International Union for Conservation of Nature has assessed the Australian boobook as being of least concern on account of its large range and apparently stable population."
+  ],
+  "image": {
+    "src": "/img/ninox-boobook-1200.webp",
+    "srcset": [
+      "/img/ninox-boobook-600.webp 600w",
+      "/img/ninox-boobook-1200.webp 1200w"
+    ],
+    "alt": "Australian Boobook (Ninox boobook); species reference photograph",
+    "credit": "(c) Ged Tranter, some rights reserved (CC BY), uploaded by Ged Tranter",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/356739343",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Australian_boobook?oldid=1384597766"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q3342037"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/979816"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2497828"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-17"
+}
