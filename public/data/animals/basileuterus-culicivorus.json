@@ -1,0 +1,166 @@
+{
+  "id": "basileuterus-culicivorus",
+  "commonName": "Golden-crowned Warbler",
+  "scientificName": "Basileuterus culicivorus",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Parulidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#286848",
+    "tokens": {
+      "wash": "#f6f9f8",
+      "soft": "#e5ede9",
+      "line": "#c3d5cc",
+      "ink": "#07130d",
+      "muted": "#143424",
+      "deep": "#122e20",
+      "on-deep": "#eaf0ed"
+    },
+    "accentDark": "#89ac9a",
+    "dark": {
+      "wash": "#040a07",
+      "soft": "#091710",
+      "line": "#163928",
+      "ink": "#eef3f0",
+      "muted": "#bfd2c8",
+      "deep": "#0e2419",
+      "on-deep": "#eef3f0"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.0097,
+      "max": 0.0097
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "The golden-crowned warbler feeds on arthropods, especially insects and spiders.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Brazil",
+      "Argentina",
+      "Costa Rica",
+      "Colombia",
+      "Mexico",
+      "Venezuela",
+      "Guatemala",
+      "Belize",
+      "Uruguay",
+      "Paraguay",
+      "Panama",
+      "United States",
+      "Nicaragua",
+      "Trinidad & Tobago",
+      "Honduras",
+      "Bolivia",
+      "El Salvador",
+      "Guyana",
+      "Peru"
+    ],
+    "countries": [
+      "BR",
+      "AR",
+      "CR",
+      "CO",
+      "MX",
+      "VE",
+      "GT",
+      "BZ",
+      "UY",
+      "PY",
+      "PA",
+      "US",
+      "NI",
+      "TT",
+      "HN",
+      "BO",
+      "SV",
+      "GY",
+      "PE"
+    ],
+    "rangeMapUrl": "/img/basileuterus-culicivorus-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "The golden-crowned warbler feeds on arthropods, especially insects and spiders.",
+      "source": "https://en.wikipedia.org/wiki/Golden-crowned_warbler?oldid=1380735415"
+    },
+    {
+      "text": "The golden-crowned warbler (Basileuterus culicivorus) is a small insectivorous bird in the New World warbler family Parulidae.",
+      "source": "https://en.wikipedia.org/wiki/Golden-crowned_warbler?oldid=1380735415"
+    },
+    {
+      "text": "The golden-crowned warbler is 12.0–13.5 cm (4.7–5.3 in) in overall length.",
+      "source": "https://en.wikipedia.org/wiki/Golden-crowned_warbler?oldid=1380735415"
+    },
+    {
+      "text": "It breeds from Mexico and south through Central America to northeastern Argentina and Uruguay, and on Trinidad.",
+      "source": "https://en.wikipedia.org/wiki/Golden-crowned_warbler?oldid=1380735415"
+    }
+  ],
+  "summary": [
+    "The golden-crowned warbler (Basileuterus culicivorus) is a small insectivorous bird in the New World warbler family Parulidae. It has a large geographic range that extends from northeastern Mexico south to northern Argentina. The white-bellied warbler was formerly treated as a separate species but is now considered to be conspecific with the golden-crowned warbler. ",
+    "The golden-crowned warbler was formally described in 1830 under the binomial name Sylvia culicivora by the German accountant Wilhelm Deppe in a price list of specimens that had been collected in Mexico by Wilhelm's brother Ferdinand Deppe. The specific epithet combines the Latin culex, culicis meaning \"midge\" and -vorus meaning \"eating\". The golden-crowned warbler is now one of 12 species placed in the genus Basileuterus that was introduced in 1848 by the German ornithologist Jean Cabanis. The genus name is from Ancient Greek βασιλευτερος/basileuteros meaning \"more kingly\"."
+  ],
+  "image": {
+    "src": "/img/basileuterus-culicivorus-1200.webp",
+    "srcset": [
+      "/img/basileuterus-culicivorus-600.webp 600w",
+      "/img/basileuterus-culicivorus-1200.webp 1200w"
+    ],
+    "alt": "Golden-crowned Warbler (Basileuterus culicivorus); species reference photograph",
+    "credit": "no rights reserved, uploaded by Dario Taraborelli",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/268370645",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Golden-crowned_warbler?oldid=1380735415"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1535791"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/10023"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2489770"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}

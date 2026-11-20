@@ -1,0 +1,174 @@
+{
+  "id": "leopardus-pardalis",
+  "commonName": "Ocelot",
+  "scientificName": "Leopardus pardalis",
+  "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae"
+  },
+  "category": "Mammal",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 11,
+      "max": 16
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "It usually feeds on the kill immediately, but removes bird feathers before.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "United States",
+      "Colombia",
+      "Mexico",
+      "Brazil",
+      "Ecuador",
+      "Costa Rica",
+      "Suriname",
+      "French Guiana",
+      "Argentina",
+      "Panama",
+      "Peru",
+      "Belize",
+      "Bolivia",
+      "Guatemala",
+      "Venezuela",
+      "Guyana",
+      "Paraguay",
+      "Trinidad & Tobago",
+      "Honduras",
+      "Nicaragua",
+      "Oman",
+      "El Salvador",
+      "Uruguay"
+    ],
+    "countries": [
+      "US",
+      "CO",
+      "MX",
+      "BR",
+      "EC",
+      "CR",
+      "SR",
+      "GF",
+      "AR",
+      "PA",
+      "PE",
+      "BZ",
+      "BO",
+      "GT",
+      "VE",
+      "GY",
+      "PY",
+      "TT",
+      "HN",
+      "NI",
+      "OM",
+      "SV",
+      "UY"
+    ],
+    "rangeMapUrl": "/img/leopardus-pardalis-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "It usually feeds on the kill immediately, but removes bird feathers before.",
+      "source": "https://en.wikipedia.org/wiki/Ocelot?oldid=1382901988"
+    },
+    {
+      "text": "A study in southern Texas revealed that a mother keeps a litter in a den for 13 to 64 days and shifts the young to two or three dens.",
+      "source": "https://en.wikipedia.org/wiki/Ocelot?oldid=1382901988"
+    },
+    {
+      "text": "The ocelot (Leopardus pardalis) is a medium-sized spotted wild cat that reaches 40–50 cm (16–20 in) at the shoulders and weighs between 7 and 15.5 kg (15 and 34 lb) on average.",
+      "source": "https://en.wikipedia.org/wiki/Ocelot?oldid=1382901988"
+    },
+    {
+      "text": "It is typically active during twilight and at night and tends to be solitary and territorial.",
+      "source": "https://en.wikipedia.org/wiki/Ocelot?oldid=1382901988"
+    }
+  ],
+  "summary": [
+    "The ocelot (Leopardus pardalis) is a medium-sized spotted wild cat that reaches 40–50 cm (16–20 in) at the shoulders and weighs between 7 and 15.5 kg (15 and 34 lb) on average. It is native to the southwestern United States, Mexico, Central and South America, and the Caribbean islands of Trinidad and Margarita. Carl Linnaeus scientifically described it in 1758. Two subspecies are recognized.",
+    "The ocelot is efficient at climbing, leaping and swimming. It prefers areas close to water sources with dense vegetation cover and high prey availability. It preys on small terrestrial mammals, such as armadilloes, opossums, and lagomorphs. It is typically active during twilight and at night and tends to be solitary and territorial. Both sexes become sexually mature at around two years of age and can breed throughout the year; peak mating season varies geographically. After a gestation period of two to three months, the female gives birth to a litter of one to three kittens. They stay with their mother for up to two years, after which they leave to establish their own home ranges."
+  ],
+  "image": {
+    "src": "/img/leopardus-pardalis-1200.webp",
+    "srcset": [
+      "/img/leopardus-pardalis-600.webp 600w",
+      "/img/leopardus-pardalis-1200.webp 1200w"
+    ],
+    "alt": "Ocelot (Leopardus pardalis); species reference photograph",
+    "credit": "(c) Emily Turteltaub Nelson, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/624962198",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Ocelot?oldid=1382901988"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q33261"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/41997"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2434982"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}

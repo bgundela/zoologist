@@ -1,0 +1,218 @@
+{
+  "id": "polyboroides-typus",
+  "commonName": "African Harrier-Hawk",
+  "scientificName": "Polyboroides typus",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.5640000000000001,
+      "max": 0.711
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "The African harrier-hawk is omnivorous, eating the fruit of the oil palm as well as hunting small vertebrates.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "South Africa",
+      "Kenya",
+      "Uganda",
+      "Gambia",
+      "Tanzania",
+      "Ghana",
+      "Zimbabwe",
+      "Nigeria",
+      "Zambia",
+      "Rwanda",
+      "Botswana",
+      "Namibia",
+      "Ethiopia",
+      "Senegal",
+      "Cameroon",
+      "Mozambique",
+      "Malawi",
+      "Liberia",
+      "Eswatini",
+      "Angola",
+      "Côte d’Ivoire",
+      "Sierra Leone",
+      "Gabon",
+      "Congo - Kinshasa",
+      "Benin",
+      "Congo - Brazzaville",
+      "Guinea-Bissau",
+      "Guinea",
+      "Lesotho",
+      "Equatorial Guinea",
+      "Central African Republic",
+      "Togo",
+      "Chad",
+      "Burundi",
+      "South Sudan",
+      "Burkina Faso",
+      "Niger",
+      "Mali",
+      "Sudan",
+      "Mauritania",
+      "Eritrea",
+      "Somalia",
+      "Belgium",
+      "United Kingdom",
+      "Greece"
+    ],
+    "countries": [
+      "ZA",
+      "KE",
+      "UG",
+      "GM",
+      "TZ",
+      "GH",
+      "ZW",
+      "NG",
+      "ZM",
+      "RW",
+      "BW",
+      "NA",
+      "ET",
+      "SN",
+      "CM",
+      "MZ",
+      "MW",
+      "LR",
+      "SZ",
+      "AO",
+      "CI",
+      "SL",
+      "GA",
+      "CD",
+      "BJ",
+      "CG",
+      "GW",
+      "GN",
+      "LS",
+      "GQ",
+      "CF",
+      "TG",
+      "TD",
+      "BI",
+      "SS",
+      "BF",
+      "NE",
+      "ML",
+      "SD",
+      "MR",
+      "ER",
+      "SO",
+      "BE",
+      "GB",
+      "GR"
+    ],
+    "rangeMapUrl": "/img/polyboroides-typus-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "The broad wings are pale grey with a black trailing edge fringed with a narrow white line.",
+      "source": "https://en.wikipedia.org/wiki/African_harrier-hawk?oldid=1382217759"
+    },
+    {
+      "text": "Nest sites are most commonly in large trees that are sometimes growing out of or located on a rocky outcrop.",
+      "source": "https://en.wikipedia.org/wiki/African_harrier-hawk?oldid=1382217759"
+    },
+    {
+      "text": "Its ability to climb, using wings as well as feet, and its long double-jointed legs, enable this bird to raid the nests of cavity-nesters such as barbets and woodhoopoes for eggs and nestlings.",
+      "source": "https://en.wikipedia.org/wiki/African_harrier-hawk?oldid=1382217759"
+    },
+    {
+      "text": "The African harrier-hawk uses the level of aggression shown to help locate nest sites of these passerines and has been observed to turn around when the mobbing by a passerine becomes less aggressive.",
+      "source": "https://en.wikipedia.org/wiki/African_harrier-hawk?oldid=1382217759"
+    }
+  ],
+  "summary": [
+    "The African harrier-hawk, harrier hawk or gymnogene (Polyboroides typus) is a bird of prey. It is about 60–66 centimetres (24–26 in) in length. It breeds in most of Africa south of the Sahara. The only other member of the genus is the allopatric Madagascar harrier-hawk (Polyboroides radiatus).",
+    "African harrier-hawks are a common raptorial species south of the Sahara being most commonly found in the tropical regions of western Africa becoming less common in East and South Africa. "
+  ],
+  "image": {
+    "src": "/img/polyboroides-typus-1200.webp",
+    "srcset": [
+      "/img/polyboroides-typus-600.webp 600w",
+      "/img/polyboroides-typus-1200.webp 1200w"
+    ],
+    "alt": "African Harrier-Hawk (Polyboroides typus); species reference photograph",
+    "credit": "no rights reserved",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/452635843",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/African_harrier-hawk?oldid=1382217759"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q512792"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/5246"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2480659"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}

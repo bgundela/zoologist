@@ -1,0 +1,141 @@
+{
+  "id": "anolis-equestris",
+  "commonName": "Knight Anole",
+  "scientificName": "Anolis equestris",
+  "taxonomy": {
+    "class": "Squamata",
+    "order": "Not well documented",
+    "family": "Dactyloidae"
+  },
+  "category": "Reptile",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": null,
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "When they are young, their diet consists mainly of insects.",
+    "activity": "Diurnal",
+    "activityNote": "Described in the source article",
+    "livesIn": "Trees",
+    "livesInNote": "Arboreal species"
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "United States",
+      "Cuba",
+      "St. Barthélemy",
+      "Bahamas",
+      "Turks & Caicos Islands",
+      "St. Vincent & Grenadines",
+      "Brazil",
+      "Germany"
+    ],
+    "countries": [
+      "US",
+      "CU",
+      "BL",
+      "BS",
+      "TC",
+      "VC",
+      "BR",
+      "DE"
+    ],
+    "rangeMapUrl": "/img/anolis-equestris-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "The knight anole (Anolis equestris) is the largest species of anole (US: ) in the Dactyloidae family.",
+      "source": "https://en.wikipedia.org/wiki/Knight_anole?oldid=1380807895"
+    },
+    {
+      "text": "Knight anoles are native to Cuba, but have been widely introduced into South Florida, where they reproduce and spread readily as an invasive species.",
+      "source": "https://en.wikipedia.org/wiki/Knight_anole?oldid=1380807895"
+    },
+    {
+      "text": "In Cuba they can be seen from near sea level to an altitude of 3,300 ft (1,000 m) in a wide range of habitats with trees, such as forest, mangrove, savanna, cultivated areas and gardens.",
+      "source": "https://en.wikipedia.org/wiki/Knight_anole?oldid=1380807895"
+    },
+    {
+      "text": "Adult knight anoles are about 13–20 in (33–51 cm) in total length, including their tail that is longer than the head-and-body, and weigh 0.56–4.83 oz (16–137 g).",
+      "source": "https://en.wikipedia.org/wiki/Knight_anole?oldid=1380807895"
+    }
+  ],
+  "summary": [
+    "The knight anole (Anolis equestris) is the largest species of anole (US:  ) in the Dactyloidae family. Other common names include Cuban knight anole or Cuban giant anole, highlighting its native country, but it has also been introduced to Florida.  In its native Cuba, this large anole is called chipojo or chupacocote.",
+    "The knight anole is part of a group of overall similar (in both appearance and behavior, all are crown-giant ecomorphs) anoles from Cuba known as the equestris species complex, including A. baracoae, A. luteogularis, A. noblei, A. pigmaequestris and A. smallwoodi."
+  ],
+  "image": {
+    "src": "/img/anolis-equestris-1200.webp",
+    "srcset": [
+      "/img/anolis-equestris-600.webp 600w",
+      "/img/anolis-equestris-1200.webp 1200w"
+    ],
+    "alt": "Knight Anole (Anolis equestris); species reference photograph",
+    "credit": "(c) Sandra H Statner, some rights reserved (CC BY), uploaded by Sandra H Statner",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/421532442",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Knight_anole?oldid=1380807895"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q536711"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/36391"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/8583926"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}

@@ -1,0 +1,226 @@
+{
+  "id": "plectropterus-gambensis",
+  "commonName": "Spur-winged Goose",
+  "scientificName": "Plectropterus gambensis",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Anseriformes",
+    "family": "Anatidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#7f7532",
+    "tokens": {
+      "wash": "#faf9f7",
+      "soft": "#f0eee6",
+      "line": "#dbd8c6",
+      "ink": "#171509",
+      "muted": "#403b19",
+      "deep": "#383316",
+      "on-deep": "#f2f1eb"
+    },
+    "accentDark": "#b9b38e",
+    "dark": {
+      "wash": "#0d0c05",
+      "soft": "#1c1a0b",
+      "line": "#46401c",
+      "ink": "#f5f4ef",
+      "muted": "#d9d6c2",
+      "deep": "#2c2912",
+      "on-deep": "#f5f4ef"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 4.375,
+      "max": 5.4
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "Its diet consists predominantly of plant matter such as the vegetative parts and seeds of grasses, sedges and aquatic plants, agricultural grains, fruit (e.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "South Africa",
+      "Botswana",
+      "Zambia",
+      "Zimbabwe",
+      "Tanzania",
+      "Namibia",
+      "Kenya",
+      "Mozambique",
+      "Rwanda",
+      "Uganda",
+      "Gambia",
+      "Ethiopia",
+      "Senegal",
+      "Eswatini",
+      "Malawi",
+      "Ghana",
+      "Benin",
+      "Chad",
+      "Nigeria",
+      "Lesotho",
+      "Cameroon",
+      "Angola",
+      "Congo - Brazzaville",
+      "Congo - Kinshasa",
+      "Guinea-Bissau",
+      "Mauritania",
+      "Niger",
+      "Burundi",
+      "South Sudan",
+      "Côte d’Ivoire",
+      "Sudan",
+      "Mali",
+      "Sierra Leone",
+      "Burkina Faso",
+      "Liberia",
+      "Morocco",
+      "Belgium",
+      "United States",
+      "United Arab Emirates",
+      "Togo",
+      "Brazil",
+      "Guinea",
+      "Central African Republic",
+      "Germany",
+      "Greece",
+      "Cyprus",
+      "Spain",
+      "Gabon",
+      "Israel"
+    ],
+    "countries": [
+      "ZA",
+      "BW",
+      "ZM",
+      "ZW",
+      "TZ",
+      "NA",
+      "KE",
+      "MZ",
+      "RW",
+      "UG",
+      "GM",
+      "ET",
+      "SN",
+      "SZ",
+      "MW",
+      "GH",
+      "BJ",
+      "TD",
+      "NG",
+      "LS",
+      "CM",
+      "AO",
+      "CG",
+      "CD",
+      "GW",
+      "MR",
+      "NE",
+      "BI",
+      "SS",
+      "CI",
+      "SD",
+      "ML",
+      "SL",
+      "BF",
+      "LR",
+      "MA",
+      "BE",
+      "US",
+      "AE",
+      "TG",
+      "BR",
+      "GN",
+      "CF",
+      "DE",
+      "GR",
+      "CY",
+      "ES",
+      "GA",
+      "IL"
+    ],
+    "rangeMapUrl": "/img/plectropterus-gambensis-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "Among standard measurements, the wing chord is 42.5 to 55 cm (16.7 to 21.7 in), the bill is 5.7 to 6.4 cm (2.2 to 2.5 in) and the tarsus is 5.7 to 12 cm (2.2 to 4.7 in).",
+      "source": "https://en.wikipedia.org/wiki/Spur-winged_goose?oldid=1337657393"
+    },
+    {
+      "text": "During breeding displays or in instances of alarm, both sexes may utter other inconspicuous calls.",
+      "source": "https://en.wikipedia.org/wiki/Spur-winged_goose?oldid=1337657393"
+    },
+    {
+      "text": "This common species feeds by grazing, but spends the middle part of the day resting by water.",
+      "source": "https://en.wikipedia.org/wiki/Spur-winged_goose?oldid=1337657393"
+    },
+    {
+      "text": "At this time of the year, the geese may violently put the spur on the bend of the wings to use in conflicts with other birds.",
+      "source": "https://en.wikipedia.org/wiki/Spur-winged_goose?oldid=1337657393"
+    }
+  ],
+  "summary": [
+    "The spur-winged goose (Plectropterus gambensis) is a large, Sub-Saharan African waterbird in the family Anatidae, which includes geese and shelducks. However, P. gambensis developed unique environmental adaptations, which resulted in the evolution of several anatomical features that are not shared with other anatids; thus, the species has been classified one step further into its own subfamily, the Plectropterinae.",
+    "Adults are 75–115 cm (30–45 in) long, and weigh an average of 4–6.8 kg (8.8–15.0 lb) (rarely up to 10 kg (22 lb)), with ganders (males) being noticeably larger than the geese. The wingspan can range from 150 to 200 cm (59 to 79 in). One source claims the average weight of males is around 6 kg (13 lb) and the weight of females is around 4.7 kg (10 lb). However, 11 individuals that were banded in South Africa, were found to average only 3.87 kg (8.5 lb), with a range of 2.4 to 5.4 kg (5.3 to 11.9 lb). Another South African-based study found 58 males weighing an average of 5.52 kg (12.2 lb) and measuring 98.1 cm (38.6 in) in total length; meanwhile, 34 females averaged 3.35 kg (7.4 lb) in weight and 84.2 cm (33.1 in) in total length. Among standard measurements, the wing chord is 42.5 to 55 cm (16.7 to 21.7 in), the bill is 5.7 to 6.4 cm (2.2 to 2.5 in) and the tarsus is 5.7 to 12 cm (2.2 to 4.7 in). They are among the largest true African waterfowl (besides the wading Goliath heron) and are, on average, the world's largest \"goose\", although in average weight, their size is at least rivaled by the Cape Barren goose. Spur-winged geese appear to be more closely allied to shelducks than \"true geese\" such as those from the Branta and Anser genera. They are mainly black, with a white face and large white wing patches. The long legs are pinkish red in colour. "
+  ],
+  "image": {
+    "src": "/img/plectropterus-gambensis-1200.webp",
+    "srcset": [
+      "/img/plectropterus-gambensis-600.webp 600w",
+      "/img/plectropterus-gambensis-1200.webp 1200w"
+    ],
+    "alt": "Spur-winged Goose (Plectropterus gambensis); species reference photograph",
+    "credit": "(c) Timothy Whitehead, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/117641980",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Spur-winged_goose?oldid=1337657393"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q247412"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/7146"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/5232465"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}

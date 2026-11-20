@@ -1,0 +1,248 @@
+{
+  "id": "tetrastes-bonasia",
+  "commonName": "Hazel Grouse",
+  "scientificName": "Tetrastes bonasia",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Galliformes",
+    "family": "Phasianidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8a725a",
+    "tokens": {
+      "wash": "#faf9f8",
+      "soft": "#f1eeeb",
+      "line": "#ded8d1",
+      "ink": "#191510",
+      "muted": "#45392d",
+      "deep": "#3d3228",
+      "on-deep": "#f3f1ef"
+    },
+    "accentDark": "#bfb1a4",
+    "dark": {
+      "wash": "#0e0b09",
+      "soft": "#1e1914",
+      "line": "#4c3f32",
+      "ink": "#f6f4f2",
+      "muted": "#dcd5ce",
+      "deep": "#302820",
+      "on-deep": "#f6f4f2"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.369,
+      "max": 0.369
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "This bird feeds on the ground, taking mainly plant food, supplemented by insects when breeding.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Sweden",
+      "Finland",
+      "Norway",
+      "France",
+      "Estonia",
+      "Russia",
+      "Switzerland",
+      "Austria",
+      "Poland",
+      "South Korea",
+      "Ukraine",
+      "Germany",
+      "Latvia",
+      "China",
+      "Italy",
+      "Slovakia",
+      "Belarus",
+      "Japan",
+      "Lithuania",
+      "Bulgaria",
+      "Czechia",
+      "Greece",
+      "Romania",
+      "Spain",
+      "Mongolia",
+      "United Kingdom",
+      "Belgium",
+      "Åland Islands",
+      "Montenegro",
+      "Hungary",
+      "Portugal",
+      "Iceland",
+      "Croatia",
+      "Denmark",
+      "Ireland",
+      "Bosnia & Herzegovina",
+      "Serbia",
+      "Slovenia",
+      "Svalbard & Jan Mayen",
+      "Kazakhstan",
+      "North Korea",
+      "Netherlands",
+      "North Macedonia",
+      "Moldova",
+      "Luxembourg",
+      "Türkiye",
+      "Albania",
+      "Liechtenstein",
+      "Kosovo",
+      "Faroe Islands",
+      "United States",
+      "Canada",
+      "Guernsey",
+      "Isle of Man",
+      "Jersey",
+      "Kyrgyzstan",
+      "Morocco",
+      "Malta",
+      "Maldives",
+      "Unknown Region"
+    ],
+    "countries": [
+      "SE",
+      "FI",
+      "NO",
+      "FR",
+      "EE",
+      "RU",
+      "CH",
+      "AT",
+      "PL",
+      "KR",
+      "UA",
+      "DE",
+      "LV",
+      "CN",
+      "IT",
+      "SK",
+      "BY",
+      "JP",
+      "LT",
+      "BG",
+      "CZ",
+      "GR",
+      "RO",
+      "ES",
+      "MN",
+      "GB",
+      "BE",
+      "AX",
+      "ME",
+      "HU",
+      "PT",
+      "IS",
+      "HR",
+      "DK",
+      "IE",
+      "BA",
+      "RS",
+      "SI",
+      "SJ",
+      "KZ",
+      "KP",
+      "NL",
+      "MK",
+      "MD",
+      "LU",
+      "TR",
+      "AL",
+      "LI",
+      "XK",
+      "FO",
+      "US",
+      "CA",
+      "GG",
+      "IM",
+      "JE",
+      "KG",
+      "MA",
+      "MT",
+      "MV",
+      "ZZ"
+    ],
+    "rangeMapUrl": "/img/tetrastes-bonasia-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "The plumage of this plump bird is finely patterned, but it essentially has grey upperparts, brown wings and chestnut flecked white underparts.",
+      "source": "https://en.wikipedia.org/wiki/Hazel_grouse?oldid=1383144401"
+    },
+    {
+      "text": "The male has a high-pitched ti-ti-ti-ti-ti call, and the female a liquid tettettettettet.",
+      "source": "https://en.wikipedia.org/wiki/Hazel_grouse?oldid=1383144401"
+    },
+    {
+      "text": "This bird feeds on the ground, taking mainly plant food, supplemented by insects when breeding.",
+      "source": "https://en.wikipedia.org/wiki/Hazel_grouse?oldid=1383144401"
+    },
+    {
+      "text": "These birds nest on the ground, with 3–6 eggs being the normal clutch size.",
+      "source": "https://en.wikipedia.org/wiki/Hazel_grouse?oldid=1383144401"
+    }
+  ],
+  "summary": [
+    "The hazel grouse (Tetrastes bonasia), sometimes called the hazel hen, is one of the smaller members of the grouse tribe of birds. It is a sedentary species, breeding across the Palearctic as far east as Hokkaido, and as far west as central Europe, in dense, damp, mixed coniferous woodland, preferably with some spruce. The bird is sometimes referred to as \"rabchick\" (from рябчик) by early 20th century English speaking travellers to Russia.",
+    "The hazel grouse was formally described in 1758 by the Swedish naturalist Carl Linnaeus in the tenth edition of his Systema Naturae under the binomial name Tetrao bonasia. Although Linnaeus specified the type locality as Europe, this is restricted to Sweden. The hazel grouse is now placed with the Chinese grouse in the genus Tetrastes that was introduced in 1840 by Alexander von Keyserling and Johann Heinrich Blasius. The specific epithet bonasia is Modern Latin for the hazel grouse, from the Italian name for the species."
+  ],
+  "image": {
+    "src": "/img/tetrastes-bonasia-1200.webp",
+    "srcset": [
+      "/img/tetrastes-bonasia-600.webp 600w",
+      "/img/tetrastes-bonasia-1200.webp 1200w"
+    ],
+    "alt": "Hazel Grouse (Tetrastes bonasia); species reference photograph",
+    "credit": "(c) Griha Hasanov, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/523366816",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Hazel_grouse?oldid=1383144401"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q182761"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/558443"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2473663"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}

@@ -1,0 +1,159 @@
+{
+  "id": "varanus-bengalensis",
+  "commonName": "Bengal Monitor",
+  "scientificName": "Varanus bengalensis",
+  "taxonomy": {
+    "class": "Squamata",
+    "order": "Not well documented",
+    "family": "Varanidae"
+  },
+  "category": "Reptile",
+  "conservationStatus": {
+    "code": "NT",
+    "label": "Near threatened"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": null,
+    "lengthCm": {
+      "min": 51.5,
+      "max": 51.5,
+      "note": "Reported length; see source"
+    },
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "The species is a generalist, and feeds on a varied diet of invertebrates and vertebrates.",
+    "activity": "Diurnal",
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Sri Lanka",
+      "India",
+      "Bangladesh",
+      "Nepal",
+      "Pakistan",
+      "Iran",
+      "Myanmar (Burma)",
+      "Thailand",
+      "Australia",
+      "Afghanistan",
+      "China",
+      "United States",
+      "Unknown Region",
+      "Bhutan",
+      "Singapore"
+    ],
+    "countries": [
+      "LK",
+      "IN",
+      "BD",
+      "NP",
+      "PK",
+      "IR",
+      "MM",
+      "TH",
+      "AU",
+      "AF",
+      "CN",
+      "US",
+      "ZZ",
+      "BT",
+      "SG"
+    ],
+    "rangeMapUrl": "/img/varanus-bengalensis-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "Young have a series of dark crossbars on the neck, throat and back.",
+      "source": "https://en.wikipedia.org/wiki/Bengal_monitor?oldid=1377186724"
+    },
+    {
+      "text": "Bengal monitors are usually solitary and usually live on the ground, although the young are often seen on trees.",
+      "source": "https://en.wikipedia.org/wiki/Bengal_monitor?oldid=1377186724"
+    },
+    {
+      "text": "Females may be able to retain sperm, and females held in confinement have been able to lay fertile eggs.",
+      "source": "https://en.wikipedia.org/wiki/Bengal_monitor?oldid=1377186724"
+    },
+    {
+      "text": "Females dig a nest hole in level ground or a vertical bank and lay the eggs inside, filling it up and using their snouts to compact the soil.",
+      "source": "https://en.wikipedia.org/wiki/Bengal_monitor?oldid=1377186724"
+    }
+  ],
+  "summary": [
+    "The Bengal monitor (Varanus bengalensis), also called the common Indian monitor, is a species of monitor lizard distributed widely in the Indian subcontinent and parts of Southeast Asia and West Asia.",
+    "The populations of monitors in India and Sri Lanka differ in the scalation from those of Myanmar; these populations were once considered subspecies of the Bengal monitor, but are now considered two species within the V. bengalensis species complex. What was once the nominate subspecies, V. bengalensis, is found west of Myanmar, while the clouded monitor (V. nebulosus) is found to the east. Clouded monitors can be differentiated by the presence of a series of enlarged scales in the supraocular region. The number of ventral scales varies, decreasing from 108 in the west to 75 in the east (Java)."
+  ],
+  "image": {
+    "src": "/img/varanus-bengalensis-1200.webp",
+    "srcset": [
+      "/img/varanus-bengalensis-600.webp 600w",
+      "/img/varanus-bengalensis-1200.webp 1200w"
+    ],
+    "alt": "Bengal Monitor (Varanus bengalensis); species reference photograph",
+    "credit": "(c) Ashwin Viswanathan, some rights reserved (CC BY), uploaded by Ashwin Viswanathan",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/53183870",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Bengal_monitor?oldid=1377186724"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q756805"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/39415"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2470669"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}
