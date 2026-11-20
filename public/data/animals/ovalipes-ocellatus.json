@@ -1,0 +1,137 @@
+{
+  "id": "ovalipes-ocellatus",
+  "commonName": "Ocellate Lady Crab",
+  "scientificName": "Ovalipes ocellatus",
+  "taxonomy": {
+    "class": "Malacostraca",
+    "order": "Decapoda",
+    "family": "Ovalipidae"
+  },
+  "category": "Invertebrate",
+  "conservationStatus": {
+    "code": "NE",
+    "label": "Not evaluated"
+  },
+  "theme": {
+    "accent": "#781828",
+    "tokens": {
+      "wash": "#faf6f6",
+      "soft": "#efe3e5",
+      "line": "#d9bec3",
+      "ink": "#160407",
+      "muted": "#3c0c14",
+      "deep": "#350b12",
+      "on-deep": "#f2e8ea"
+    },
+    "accentDark": "#b58089",
+    "dark": {
+      "wash": "#0c0204",
+      "soft": "#1a0509",
+      "line": "#420d16",
+      "ink": "#f4edee",
+      "muted": "#d7babf",
+      "deep": "#2a080e",
+      "on-deep": "#f4edee"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": null,
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "It rarely feeds on fish.",
+    "activity": "Nocturnal",
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "United States",
+      "Canada",
+      "Unknown Region",
+      "Argentina",
+      "Mexico",
+      "Sweden"
+    ],
+    "countries": [
+      "US",
+      "CA",
+      "ZZ",
+      "AR",
+      "MX",
+      "SE"
+    ],
+    "rangeMapUrl": "/img/ovalipes-ocellatus-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "Ovalipes ocellatus is nocturnal and often buries itself in the sand.",
+      "source": "https://en.wikipedia.org/wiki/Ovalipes_ocellatus?oldid=1354922172"
+    },
+    {
+      "text": "Ovalipes ocellatus, commonly known as the lady crab, oscellated crab, or calico crab, is a species of crab in the family Ovalipidae.",
+      "source": "https://en.wikipedia.org/wiki/Ovalipes_ocellatus?oldid=1354922172"
+    },
+    {
+      "text": "The carapace of O. ocellatus is slightly wider than long, at 8.9 centimetres (3.5 in) wide, and 7.5 cm (3.0 in) long.",
+      "source": "https://en.wikipedia.org/wiki/Ovalipes_ocellatus?oldid=1354922172"
+    },
+    {
+      "text": "Ovalipes ocellatus has five zoeal (larval) stages, lasting a total of 18 days at 25 °C (77 °F) and a salinity of 30‰, and 26 days at 20 °C (68 °F) and 30‰.",
+      "source": "https://en.wikipedia.org/wiki/Ovalipes_ocellatus?oldid=1354922172"
+    }
+  ],
+  "summary": [
+    "Ovalipes ocellatus, commonly known as the lady crab, oscellated crab, or calico crab, is a species of crab in the family Ovalipidae. ",
+    "The carapace of O. ocellatus is slightly wider than long, at 8.9 centimetres (3.5 in) wide, and 7.5 cm (3.0 in) long. The carapace is yellow-grey or light purplish, with \"leopardlike clusters of purple dots\". It exhibits a limited iridescence as a form of signalling."
+  ],
+  "image": {
+    "src": "/img/ovalipes-ocellatus-1200.webp",
+    "srcset": [
+      "/img/ovalipes-ocellatus-600.webp 600w",
+      "/img/ovalipes-ocellatus-1200.webp 1200w"
+    ],
+    "alt": "Ocellate Lady Crab (Ovalipes ocellatus); species reference photograph",
+    "credit": "no rights reserved",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/534151465",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Ovalipes_ocellatus?oldid=1354922172"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7113228"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/52521"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2225609"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}

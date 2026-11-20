@@ -2,7 +2,7 @@ import { json,request } from './http';
 import { extractFacts,nicheScore,explicitTraits } from './enrich';
 import type { Candidate } from './discover';
 import type { Animal } from './types';
-import { processImage,openLicense } from './images';
+import { saveLicensedPhoto, type Photo } from './images';
 import { photoTheme } from './theme';
 import sharp from 'sharp';
 import { writeFile } from 'node:fs/promises';
@@ -20,7 +20,7 @@ export function quantity(claims:any,property:string,units:Record<string,number>)
  });
  return quantities.length?{min:Math.min(...quantities.map((q:any)=>q.min)),max:Math.max(...quantities.map((q:any)=>q.max))}:null;
 }
-export async function fetchAnimal(candidate:Candidate,accent?:string):Promise<{animal:Animal;score:number}> {
+export async function fetchAnimal(candidate:Candidate,accent?:string,minQuickStats=3):Promise<{animal:Animal;score:number}> {
  const taxon=(await json(`https://api.inaturalist.org/v1/taxa/${candidate.id}`)).results[0];
  const gbif=await json(`https://api.gbif.org/v1/species/match?name=${encodeURIComponent(candidate.name)}&rank=SPECIES&kingdom=Animalia&strict=true`);
  if(gbif.matchType!=='EXACT'||gbif.rank!=='SPECIES'||gbif.status!=='ACCEPTED')throw new Error('Species is not an exact accepted GBIF match');
@@ -46,16 +46,21 @@ export async function fetchAnimal(candidate:Candidate,accent?:string):Promise<{a
  const activity=traits.activity;
  const arboreal=traits.livesIn;
  const count=[weight,length,lifespan,dietSentence,activity,arboreal].filter(Boolean).length;
- if(count<3)throw new Error('Insufficient documented quick stats');
- let photo:any;
- for(const entry of taxon.taxon_photos||[]){const p=entry.photo;if(!p)continue;const code=(p.license_code||'').toLowerCase();if(['cc0','cc-by','cc-by-sa'].includes(code)){photo=p;break;}}
- if(!photo)throw new Error('No openly licensed iNaturalist photo');
- const license=photo.license_code.toLowerCase()==='cc0'?'CC0 1.0':photo.license_code.toLowerCase()==='cc-by'?'CC BY 4.0':'CC BY-SA 4.0';
- if(!openLicense.test(license))throw new Error('Unapproved photo license');
- const photoUrl=photo.original_url||photo.large_url;if(!photoUrl)throw new Error('No large photo');
- const image=Buffer.from(await (await request(photoUrl)).arrayBuffer());
+ if(count<minQuickStats)throw new Error(`Insufficient documented quick stats (${count}/${minQuickStats})`);
  const id=candidate.name.toLowerCase().replace(/[^a-z0-9]+/g,'-');
- await processImage(image,id,license);
+ const featuredPhotos = (taxon.taxon_photos ?? []).flatMap(({ photo }: { photo?: Photo }) => photo ? [photo] : []);
+ let image = await saveLicensedPhoto(featuredPhotos, id);
+ if (!image) {
+  const observations = await json(`https://api.inaturalist.org/v1/observations?taxon_id=${candidate.id}&quality_grade=research&photo_license=cc0,cc-by,cc-by-sa&per_page=20&order_by=votes`);
+  const photos = new Map<number, Photo>();
+  for (const observation of observations.results) {
+   if (observation.taxon?.id !== candidate.id) continue;
+   for (const photo of observation.photos as Photo[]) photos.set(photo.id, photo);
+  }
+  image = await saveLicensedPhoto([...photos.values()], id);
+ }
+ if(!image)throw new Error('No usable openly licensed iNaturalist photo at least 1200px wide');
+ const { photo, license } = image;
  const theme=await photoTheme(`public/img/${id}-1200.webp`,accent);
  const countries=await json(`https://api.gbif.org/v1/occurrence/search?taxon_key=${gbif.usageKey}&limit=0&facet=country&facetLimit=100&has_coordinate=true`);
  const codes=countries.facets?.[0]?.counts?.map((c:any)=>c.name)||[];

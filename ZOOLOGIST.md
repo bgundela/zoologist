@@ -299,16 +299,16 @@ The goal is animals that are surprising but not so obscure that there's nothing 
 - **Photo quality:** at least one openly licensed photo at ≥1200px.
 - **Variety bonus:** boosts classes, continents, and habitats that haven't appeared recently, so the feed isn't all birds.
 
-**Hard filters (must pass):** valid accepted species name, openly licensed photo, English article, enough source text to ground at least 3 fun facts, and at least 3 of the 6 quick stats.
+**Hard filters (must pass):** valid accepted species name, openly licensed photo, English article, enough source text to ground at least 3 fun facts, and at least 3 of the 6 quick stats. When fewer than seven future days are scheduled, two documented quick stats are enough. Unknown values are shown as “Not well documented.”
 
 ### 7.3 Rolling, append-only schedule
 Because the pool is dynamic, the schedule is generated a little ahead of time instead of all at once:
 
-1. A **GitHub Actions cron job runs daily**, and on relevant pushes. It tops up `schedule.json` so there are always about **14 future days** filled in.
+1. A **GitHub Actions cron job runs twice daily**, and on relevant pushes. It tops up `schedule.json` toward **14 future days**.
 2. For each open day it takes the highest-scoring candidate that hasn't been used before, then runs the normal enrich step (fetch, fun facts, accent color, image processing).
 3. **Past and current days are never rewritten.** The schedule is append-only, so today's animal stays the same for everyone and old permalinks keep working.
 4. The 14-day buffer is also a **review window**. New entries pass automated validation, tests, type checks, and a static build, then commit directly to the default branch. A Vercel Deploy Hook requests publication. Routine updates require no review PR or manual merge; generated entries are not marked as human-reviewed.
-5. If discovery fails (API down, nothing passes the filters), the job leaves the buffer as-is and the site keeps running on the days already scheduled.
+5. If discovery fails (API down, nothing passes the filters), the site keeps using scheduled dates. When the buffer runs out, it rotates past animals until discovery resumes. Recovery records the rotation for elapsed dates and adds new animals to open dates.
 
 ### 7.4 Optional overrides
 A small `overrides.json`, not a species list, lets you:

@@ -9,9 +9,11 @@ import '../styles/theme.css';
 import fixture from '../../public/data/animals/aye-aye.json';
 import schedule from '../../public/data/schedule.json';
 import { renderAnimal } from '../lib/render';
+import { fallbackRotation } from '../lib/today';
 import type { Animal } from '../../data-pipeline/types';
 const catalog = Object.values(import.meta.glob('../../public/data/animals/*.json',{eager:true,import:'default'})) as Animal[];
 const themes=Object.fromEntries(catalog.map(a=>[a.id,a.theme]));
+const rotation=fallbackRotation(schedule);
 ---
 <!doctype html>
 <html lang="en">
@@ -29,14 +31,15 @@ const themes=Object.fromEntries(catalog.map(a=>[a.id,a.theme]));
 <meta name="apple-mobile-web-app-title" content="Zoologist"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="mobile-web-app-capable" content="yes"/>
-<script is:inline define:vars={{themes,schedule}}>
+<script is:inline define:vars={{themes,schedule,rotation}}>
 (function(){
  const now=new Date(),today=[now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');
  let date=new URLSearchParams(location.search).get('date');
  if(!date||!/^\d{4}-\d{2}-\d{2}$/.test(date)||!Number.isFinite(Date.parse(date))||new Date(date+'T00:00:00Z').toISOString().slice(0,10)!==date||date>today)date=today;
  let index=Math.floor((Date.parse(date+'T00:00:00Z')-Date.parse(schedule.launch+'T00:00:00Z'))/86400000);
  if(index<0||index>=schedule.order.length){date=today;index=Math.floor((Date.parse(today+'T00:00:00Z')-Date.parse(schedule.launch+'T00:00:00Z'))/86400000);}
- const id=schedule.order[index]||schedule.fallback,theme=themes[id]||themes[schedule.fallback];
+ const id=schedule.order[index]??(index<0?schedule.fallback:rotation[index%rotation.length]);
+ const theme=themes[id]||themes[schedule.fallback];
  const dark=matchMedia('(prefers-color-scheme: dark)').matches;
  for(const [key,value] of Object.entries(dark?theme.dark:theme.tokens))document.documentElement.style.setProperty('--accent-'+key,value);
  document.documentElement.style.setProperty('--accent',theme.accent);

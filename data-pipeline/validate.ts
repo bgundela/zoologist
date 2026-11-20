@@ -4,7 +4,7 @@ import { pathToFileURL } from 'node:url';
 import { contrast } from './theme';
 import { openLicense } from './images';
 import type { Animal } from './types';
-import { validDate } from '../src/lib/today';
+import { fallbackRotation, validDate, type Schedule } from '../src/lib/today';
 const ajv=new Ajv({allErrors:true});
 const text={type:'string',minLength:1};
 const url={type:'string',pattern:'^https://'};
@@ -20,9 +20,18 @@ export async function validateAnimal(animal:Animal){
  if(contrast(t.accent,'#ffffff')<4.5)throw new Error('Accent fails AA');
 }
 export async function validateDataset(){
- const schedule=JSON.parse(await readFile('public/data/schedule.json','utf8'));
+ const schedule: Schedule=JSON.parse(await readFile('public/data/schedule.json','utf8'));
  if(!validDate(schedule.launch)||!schedule.order.length||!schedule.fallback)throw new Error('Invalid schedule');
- if(!schedule.fixture && new Set(schedule.order).size!==schedule.order.length)throw new Error('Repeated scheduled species');
+ if(!schedule.fixture){
+  const used=new Set<string>();
+  for(const [index,id] of schedule.order.entries()){
+   if(used.has(id)){
+    const rotation=fallbackRotation({...schedule,order:schedule.order.slice(0,index)});
+    if(id!==rotation[index%rotation.length])throw new Error('Invalid repeat in scheduled species');
+   }
+   used.add(id);
+  }
+ }
  for(const id of new Set<string>([...schedule.order,schedule.fallback])){if(!/^[a-z0-9-]+$/.test(id))throw new Error('Invalid animal id');const animal=JSON.parse(await readFile(`public/data/animals/${id}.json`,'utf8'));if(animal.id!==id)throw new Error('Animal id mismatch');await validateAnimal(animal);}
  console.log(`Validated ${new Set(schedule.order).size} scheduled species, licensed assets, and AA theme contrast.`);
 }

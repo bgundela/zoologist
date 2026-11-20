@@ -10,7 +10,8 @@ on:
       - 'package-lock.json'
       - 'astro.config.mjs'
   schedule:
-    - cron: '23 9 * * *'
+    - cron: '23 5 * * *'
+    - cron: '23 17 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -34,18 +35,9 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - name: Check deployment configuration
-        env:
-          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
-        run: |
-          node --input-type=module -e '
-            const hook = process.env.VERCEL_DEPLOY_HOOK;
-            if (!hook) throw new Error("Add the VERCEL_DEPLOY_HOOK repository secret. See README.md.");
-            let url;
-            try { url = new URL(hook); } catch { throw new Error("Invalid Vercel Deploy Hook URL."); }
-            if (url.protocol !== "https:" || url.hostname !== "api.vercel.com" || !url.pathname.startsWith("/v1/integrations/deploy/")) throw new Error("Expected a Vercel Deploy Hook URL.");
-          '
       - run: npm ci
+      - name: Set schedule date
+        run: echo "SCHEDULE_DATE=$(date +%F)" >> "$GITHUB_ENV"
       - name: Top up the next 14 days
         run: npm run discover
       - name: Verify history and validate site
@@ -55,15 +47,34 @@ jobs:
           npm test
           npm run build
       - name: Commit validated content
+        id: commit
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add public/data public/img data-pipeline/discovery-state.json
+          message='Advance animal discovery'
+          if ! git diff --cached --quiet -- public/data/schedule.json; then
+            echo 'schedule_changed=true' >> "$GITHUB_OUTPUT"
+            message='Update daily animal schedule'
+          fi
           if ! git diff --cached --quiet; then
-            git commit -m 'Update daily animal schedule'
+            git commit -m "$message"
             git push origin "HEAD:$DEFAULT_BRANCH"
           fi
       - name: Request Vercel deployment
+        # The first daily run also retries publication of already committed entries.
+        if: github.event_name != 'schedule' || github.event.schedule == '23 5 * * *' || steps.commit.outputs.schedule_changed == 'true'
         env:
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         run: node data-pipeline/deploy.mjs
+      - name: Check coverage for tomorrow
+        run: |
+          node --import tsx --input-type=module -e '
+            import { readFileSync } from "node:fs";
+            import { dayIndex } from "./src/lib/today.ts";
+            const schedule = JSON.parse(readFileSync("public/data/schedule.json", "utf8"));
+            if (schedule.order.length <= dayIndex(process.env.SCHEDULE_DATE, schedule.launch) + 1) {
+              console.error("::error::Discovery did not schedule an animal for tomorrow. The site will use its rotation if the schedule runs out.");
+              process.exitCode = 1;
+            }
+          '

@@ -1,6 +1,10 @@
-// Preserve elapsed dates, but leave an unassigned current day available for a discovery.
-export function backfillElapsedDays(order:string[],current:number,fallback:string):string[] {
- const result=[...order];
- while(result.length<current)result.push(fallback);
- return result;
+import { fallbackRotation, type Schedule } from '../src/lib/today';
+
+export const futureDays = 14;
+
+export function backfillElapsedDays(schedule: Schedule, current: number): string[] {
+  const order = [...schedule.order];
+  const rotation = fallbackRotation(schedule);
+  while (order.length < current) order.push(rotation[order.length % rotation.length]);
+  return order;
 }
