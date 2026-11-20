@@ -1,0 +1,224 @@
+{
+  "id": "lagonosticta-senegala",
+  "commonName": "Red-billed Firefinch",
+  "scientificName": "Lagonosticta senegala",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Estrildidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.0085,
+      "max": 0.0085
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "The red-billed firefinch is a small gregarious bird which feeds mainly on grain and other seeds.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "South Africa",
+      "Kenya",
+      "Uganda",
+      "Tanzania",
+      "Gambia",
+      "Zimbabwe",
+      "Nigeria",
+      "Senegal",
+      "Zambia",
+      "Ethiopia",
+      "Namibia",
+      "Botswana",
+      "Rwanda",
+      "Ghana",
+      "Malawi",
+      "Burkina Faso",
+      "Mozambique",
+      "Eswatini",
+      "Congo - Kinshasa",
+      "Benin",
+      "Guinea-Bissau",
+      "Mali",
+      "Guinea",
+      "Chad",
+      "Algeria",
+      "Niger",
+      "Djibouti",
+      "Côte d’Ivoire",
+      "Somalia",
+      "Cameroon",
+      "Sierra Leone",
+      "Togo",
+      "Sudan",
+      "Burundi",
+      "Angola",
+      "Mauritania",
+      "Eritrea",
+      "United States",
+      "South Sudan",
+      "Liberia",
+      "Lesotho",
+      "Central African Republic",
+      "Spain",
+      "Greece",
+      "Canada",
+      "Finland",
+      "Morocco",
+      "São Tomé & Príncipe"
+    ],
+    "countries": [
+      "ZA",
+      "KE",
+      "UG",
+      "TZ",
+      "GM",
+      "ZW",
+      "NG",
+      "SN",
+      "ZM",
+      "ET",
+      "NA",
+      "BW",
+      "RW",
+      "GH",
+      "MW",
+      "BF",
+      "MZ",
+      "SZ",
+      "CD",
+      "BJ",
+      "GW",
+      "ML",
+      "GN",
+      "TD",
+      "DZ",
+      "NE",
+      "DJ",
+      "CI",
+      "SO",
+      "CM",
+      "SL",
+      "TG",
+      "SD",
+      "BI",
+      "AO",
+      "MR",
+      "ER",
+      "US",
+      "SS",
+      "LR",
+      "LS",
+      "CF",
+      "ES",
+      "GR",
+      "CA",
+      "FI",
+      "MA",
+      "ST"
+    ],
+    "rangeMapUrl": "/img/lagonosticta-senegala-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "The adult male has entirely scarlet plumage apart from brown wings.",
+      "source": "https://en.wikipedia.org/wiki/Red-billed_firefinch?oldid=1314943645"
+    },
+    {
+      "text": "The red-billed firefinch is a small gregarious bird which feeds mainly on grain and other seeds.",
+      "source": "https://en.wikipedia.org/wiki/Red-billed_firefinch?oldid=1314943645"
+    },
+    {
+      "text": "The red-billed firefinch or Senegal firefinch (Lagonosticta senegala) is a small seed-eating bird in the family Estrildidae.",
+      "source": "https://en.wikipedia.org/wiki/Red-billed_firefinch?oldid=1314943645"
+    },
+    {
+      "text": "This widespread and abundant species is often found around human habitation, often with other species such as the red-cheeked cordon-bleu.",
+      "source": "https://en.wikipedia.org/wiki/Red-billed_firefinch?oldid=1314943645"
+    }
+  ],
+  "summary": [
+    "The red-billed firefinch or Senegal firefinch (Lagonosticta senegala) is a small seed-eating bird in the family Estrildidae. This is a resident breeding bird in most of Sub-Saharan Africa with an estimated global extent of occurrence of 10,000,000 km2. It was introduced to Egypt, but the population there has become extinct. It was also introduced to southern Algeria where it is currently expanding northward.",
+    "In 1760 the French zoologist Mathurin Jacques Brisson included a description of the red-billed firefinch in his Ornithologie based on a specimen collected in Senegal. He used the French name Le Sénégali rouge and the Latin name Senegalus Ruber. Although Brisson coined Latin names, these do not conform to the binomial system and are not recognised by the International Commission on Zoological Nomenclature. When in 1766 the Swedish naturalist Carl Linnaeus updated his Systema Naturae for the twelfth edition, he added 240 species that had been previously described by Brisson. One of these was the red-billed firefinch. Linnaeus included a brief description, coined the binomial name Fringilla senegala and cited Brisson's work. The species is now placed in the genus Lagonosticta that was introduced by the German ornithologists Jean Cabanis in 1851."
+  ],
+  "image": {
+    "src": "/img/lagonosticta-senegala-1200.webp",
+    "srcset": [
+      "/img/lagonosticta-senegala-600.webp 600w",
+      "/img/lagonosticta-senegala-1200.webp 1200w"
+    ],
+    "alt": "Red-billed Firefinch (Lagonosticta senegala); species reference photograph",
+    "credit": "(c) Justin Ponder, some rights reserved (CC BY), uploaded by Justin Ponder",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/63402303",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Red-billed_firefinch?oldid=1314943645"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q560326"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/14051"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2493680"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}

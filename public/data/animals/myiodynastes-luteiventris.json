@@ -1,0 +1,162 @@
+{
+  "id": "myiodynastes-luteiventris",
+  "commonName": "Sulphur-bellied Flycatcher",
+  "scientificName": "Myiodynastes luteiventris",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Tyrannidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.047,
+      "max": 0.047
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "The sulphur-bellied flycatcher feeds on insects year-round and in the non-breeding season adds much fruit to its diet.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Costa Rica",
+      "United States",
+      "Mexico",
+      "Belize",
+      "Guatemala",
+      "Honduras",
+      "Colombia",
+      "Nicaragua",
+      "Panama",
+      "El Salvador",
+      "Peru",
+      "Ecuador",
+      "Bolivia",
+      "Canada",
+      "Chile",
+      "Brazil",
+      "Venezuela"
+    ],
+    "countries": [
+      "CR",
+      "US",
+      "MX",
+      "BZ",
+      "GT",
+      "HN",
+      "CO",
+      "NI",
+      "PA",
+      "SV",
+      "PE",
+      "EC",
+      "BO",
+      "CA",
+      "CL",
+      "BR",
+      "VE"
+    ],
+    "rangeMapUrl": "/img/myiodynastes-luteiventris-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "Their nape and upperparts to the upper rump are light olive with a buffy tinge and dusky centers to the feathers that give a streaked appearance.",
+      "source": "https://en.wikipedia.org/wiki/Sulphur-bellied_flycatcher?oldid=1326529852"
+    },
+    {
+      "text": "The sulphur-bellied flycatcher feeds on insects year-round and in the non-breeding season adds much fruit to its diet.",
+      "source": "https://en.wikipedia.org/wiki/Sulphur-bellied_flycatcher?oldid=1326529852"
+    },
+    {
+      "text": "The female alone builds the nest in a tree cavity, either natural or excavated by a woodpecker.",
+      "source": "https://en.wikipedia.org/wiki/Sulphur-bellied_flycatcher?oldid=1326529852"
+    },
+    {
+      "text": "Its \"screech\" call has been compared to \"the protest of a wagon wheel that needs oiling\".",
+      "source": "https://en.wikipedia.org/wiki/Sulphur-bellied_flycatcher?oldid=1326529852"
+    }
+  ],
+  "summary": [
+    "The sulphur-bellied flycatcher (Myiodynastes luteiventris) is a large member of the family Tyrannidae, the tyrant flycatchers. It is regularly found from southern Arizona in the United States south to Bolivia and occurs casually or as a vagrant further north, east, and south of its usual range.",
+    "The sulphur-bellied flycatcher is monotypic. Because there is much clinal variation in size and plumage, several subspecies have been proposed but not accepted. The sulphur-bellied flycatcher and the streaked flycatcher (M. maculatus) are sister species."
+  ],
+  "image": {
+    "src": "/img/myiodynastes-luteiventris-1200.webp",
+    "srcset": [
+      "/img/myiodynastes-luteiventris-600.webp 600w",
+      "/img/myiodynastes-luteiventris-1200.webp 1200w"
+    ],
+    "alt": "Sulphur-bellied Flycatcher (Myiodynastes luteiventris); species reference photograph",
+    "credit": "(c) Linzy L., some rights reserved (CC BY-SA)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/753906961",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Sulphur-bellied_flycatcher?oldid=1326529852"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q779576"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/16071"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2483494"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}

@@ -1,0 +1,246 @@
+{
+  "id": "lagopus-lagopus",
+  "commonName": "Willow Ptarmigan",
+  "scientificName": "Lagopus lagopus",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Galliformes",
+    "family": "Phasianidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.58,
+      "max": 0.72
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "The bird is herbivorous for most of its life and subsists on various plant materials.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Norway",
+      "United Kingdom",
+      "Sweden",
+      "United States",
+      "Canada",
+      "Finland",
+      "Russia",
+      "Ireland",
+      "France",
+      "Estonia",
+      "Spain",
+      "Germany",
+      "Italy",
+      "Poland",
+      "Kazakhstan",
+      "Greece",
+      "Isle of Man",
+      "Latvia",
+      "Ukraine",
+      "Mongolia",
+      "Belarus",
+      "Portugal",
+      "Iceland",
+      "Romania",
+      "Denmark",
+      "Hungary",
+      "Lithuania",
+      "Austria",
+      "Croatia",
+      "Bulgaria",
+      "China",
+      "Czechia",
+      "Svalbard & Jan Mayen",
+      "Netherlands",
+      "Serbia",
+      "Bosnia & Herzegovina",
+      "Slovakia",
+      "Belgium",
+      "Switzerland",
+      "Moldova",
+      "Türkiye",
+      "North Macedonia",
+      "Slovenia",
+      "Unknown Region",
+      "Albania",
+      "Åland Islands",
+      "Faroe Islands",
+      "Montenegro",
+      "St. Pierre & Miquelon",
+      "Kosovo",
+      "Japan",
+      "Antarctica",
+      "Colombia",
+      "Guernsey",
+      "Greenland",
+      "Jersey",
+      "Morocco",
+      "Malta",
+      "Maldives"
+    ],
+    "countries": [
+      "NO",
+      "GB",
+      "SE",
+      "US",
+      "CA",
+      "FI",
+      "RU",
+      "IE",
+      "FR",
+      "EE",
+      "ES",
+      "DE",
+      "IT",
+      "PL",
+      "KZ",
+      "GR",
+      "IM",
+      "LV",
+      "UA",
+      "MN",
+      "BY",
+      "PT",
+      "IS",
+      "RO",
+      "DK",
+      "HU",
+      "LT",
+      "AT",
+      "HR",
+      "BG",
+      "CN",
+      "CZ",
+      "SJ",
+      "NL",
+      "RS",
+      "BA",
+      "SK",
+      "BE",
+      "CH",
+      "MD",
+      "TR",
+      "MK",
+      "SI",
+      "ZZ",
+      "AL",
+      "AX",
+      "FO",
+      "ME",
+      "PM",
+      "XK",
+      "JP",
+      "AQ",
+      "CO",
+      "GG",
+      "GL",
+      "JE",
+      "MA",
+      "MT",
+      "MV"
+    ],
+    "rangeMapUrl": "/img/lagopus-lagopus-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "In the summer, the birds are largely brown, with dappled plumage, while in the winter, they are white with some black feathers in their tails.",
+      "source": "https://en.wikipedia.org/wiki/Willow_ptarmigan?oldid=1386485395"
+    },
+    {
+      "text": "In the summer, the male's plumage is marbled brown, with a reddish hue to the neck and breast, a black tail, and white wings and underparts.",
+      "source": "https://en.wikipedia.org/wiki/Willow_ptarmigan?oldid=1386485395"
+    },
+    {
+      "text": "As juveniles, they may feed on insects due to an inability to digest plant material caused by underdeveloped ceca.",
+      "source": "https://en.wikipedia.org/wiki/Willow_ptarmigan?oldid=1386485395"
+    },
+    {
+      "text": "The greening of parts of the Arctic is also thought to be affecting willow ptarmigan populations by altering the shape and size of the shrubs on which they are able to feed.",
+      "source": "https://en.wikipedia.org/wiki/Willow_ptarmigan?oldid=1386485395"
+    }
+  ],
+  "summary": [
+    "The willow ptarmigan ( TAR-mi-gən; Lagopus lagopus) is a bird in the grouse tribe Tetraonini of the pheasant family Phasianidae. It is also known as the willow grouse. The willow ptarmigan breeds in birch and other forests and moorlands in northern Europe, the tundra of Scandinavia, Siberia, Alaska, and Canada, in particular in the provinces of Newfoundland and Labrador and Quebec. It is the state bird of Alaska.",
+    "In the summer, the birds are largely brown, with dappled plumage, while in the winter, they are white with some black feathers in their tails. The species has remained little changed from the bird that roamed the tundra during the Pleistocene. Nesting takes place in the spring when clutches of four to 10 eggs are laid in a scrape on the ground. The chicks are precocial, so soon leave the nest. While they are young, both parents play a part in caring for them. The chicks eat insects and young plant growth, while the adults are completely herbivorous, eating leaves, flowers, buds, seeds, and berries during the summer and largely subsisting on the buds and twigs of willow and other dwarf shrubs and trees during the winter."
+  ],
+  "image": {
+    "src": "/img/lagopus-lagopus-1200.webp",
+    "srcset": [
+      "/img/lagopus-lagopus-600.webp 600w",
+      "/img/lagopus-lagopus-1200.webp 1200w"
+    ],
+    "alt": "Willow Ptarmigan (Lagopus lagopus); species reference photograph",
+    "credit": "(c) Christoph Moning, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/192223609",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Willow_ptarmigan?oldid=1386485395"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q178702"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/931"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2473421"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}

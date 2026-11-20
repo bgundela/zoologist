@@ -1,0 +1,154 @@
+{
+  "id": "tapirus-terrestris",
+  "commonName": "South American Tapir",
+  "scientificName": "Tapirus terrestris",
+  "taxonomy": {
+    "class": "Mammalia",
+    "order": "Perissodactyla",
+    "family": "Tapiridae"
+  },
+  "category": "Mammal",
+  "conservationStatus": {
+    "code": "VU",
+    "label": "Vulnerable"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 150,
+      "max": 250
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "The South American tapir is an herbivore.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Colombia",
+      "Brazil",
+      "Argentina",
+      "French Guiana",
+      "Ecuador",
+      "Peru",
+      "Suriname",
+      "Bolivia",
+      "Paraguay",
+      "Guyana",
+      "Venezuela",
+      "United States",
+      "French Southern Territories"
+    ],
+    "countries": [
+      "CO",
+      "BR",
+      "AR",
+      "GF",
+      "EC",
+      "PE",
+      "SR",
+      "BO",
+      "PY",
+      "GY",
+      "VE",
+      "US",
+      "TF"
+    ],
+    "rangeMapUrl": "/img/tapirus-terrestris-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "Using its mobile nose, it feeds on leaves, buds, shoots, and small branches it tears from trees, fruit, grasses, and aquatic plants.",
+      "source": "https://en.wikipedia.org/wiki/South_American_tapir?oldid=1385911635"
+    },
+    {
+      "text": "The Karitiana tribe, a group of people indigenous to the area, regularly hunt the tapir.",
+      "source": "https://en.wikipedia.org/wiki/South_American_tapir?oldid=1385911635"
+    },
+    {
+      "text": "It is the largest surviving native terrestrial mammal in the Amazon.",
+      "source": "https://en.wikipedia.org/wiki/South_American_tapir?oldid=1385911635"
+    },
+    {
+      "text": "The formal description of this tapir did not suggest a common name for the species.",
+      "source": "https://en.wikipedia.org/wiki/South_American_tapir?oldid=1385911635"
+    }
+  ],
+  "summary": [
+    "The South American tapir (Tapirus terrestris), also commonly called the Brazilian tapir (from the Tupi tapi'ira), the Amazonian tapir, the maned tapir, the lowland tapir, anta (Brazilian Portuguese), and sachavaca (literally \"bushcow\", in mixed Quechua and Spanish), is one of the four recognized species in the tapir family (of the order Perissodactyla, with the mountain tapir, the Malayan tapir, and the Baird's tapir). It is the largest surviving native terrestrial mammal in the Amazon.",
+    "Most classifications also include Tapirus kabomani (also known as the dwarf black tapir or the kabomani tapir) as also belonging to the species Tapirus terrestris (Brazilian tapir), despite its questionable existence and the overall lack of information on its habits and distribution. The specific epithet derives from arabo kabomani, the word for tapir in the local Paumarí language. The formal description of this tapir did not suggest a common name for the species. The Karitiana people call it the little black tapir. It is, purportedly, the smallest tapir species, even smaller than the mountain tapir (T. pinchaque), which had been considered the smallest. T. kabomani is allegedly also found in the Amazon rainforest, where it appears to be sympatric with the well-known South American tapir (T. terrestris). When it was described in December of 2013, T. kabomani was the first odd-toed ungulate discovered in over 100 years. However, T. kabomani has not been officially recognized by the Tapir Specialist Group as a distinct species; recent genetic evidence further suggests it is likely a subspecies of T. terrestris. In 2024, the International Commission on Zoological Nomenclature (ICZN) has officially ruled that the binomen Tapirus pygmaeus has priority over Tapirus kabomani given that they are synonyms after a 2014 petition."
+  ],
+  "image": {
+    "src": "/img/tapirus-terrestris-1200.webp",
+    "srcset": [
+      "/img/tapirus-terrestris-600.webp 600w",
+      "/img/tapirus-terrestris-1200.webp 1200w"
+    ],
+    "alt": "South American Tapir (Tapirus terrestris); species reference photograph",
+    "credit": "(c) Jens-Christian Svenning, some rights reserved (CC BY), uploaded by Jens-Christian Svenning",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/73961577",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/South_American_tapir?oldid=1385911635"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q220271"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/43353"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2440898"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-20"
+}
