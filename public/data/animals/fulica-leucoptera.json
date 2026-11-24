@@ -1,0 +1,148 @@
+{
+  "id": "fulica-leucoptera",
+  "commonName": "White-winged Coot",
+  "scientificName": "Fulica leucoptera",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Gruiformes",
+    "family": "Rallidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#896f3a",
+    "tokens": {
+      "wash": "#faf9f7",
+      "soft": "#f1eee7",
+      "line": "#ded7c8",
+      "ink": "#19140a",
+      "muted": "#45381d",
+      "deep": "#3c311a",
+      "on-deep": "#f3f1eb"
+    },
+    "accentDark": "#beb093",
+    "dark": {
+      "wash": "#0e0b06",
+      "soft": "#1e180d",
+      "line": "#4b3d20",
+      "ink": "#f6f3ef",
+      "muted": "#dcd4c4",
+      "deep": "#302714",
+      "on-deep": "#f6f3ef"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.656,
+      "max": 0.656
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "In water it mostly feeds on the surface but occasionally dives.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Argentina",
+      "Chile",
+      "Uruguay",
+      "Brazil",
+      "Paraguay",
+      "Bolivia",
+      "Peru",
+      "Falkland Islands",
+      "Germany",
+      "Nigeria"
+    ],
+    "countries": [
+      "AR",
+      "CL",
+      "UY",
+      "BR",
+      "PY",
+      "BO",
+      "PE",
+      "FK",
+      "DE",
+      "NG"
+    ],
+    "rangeMapUrl": "/img/fulica-leucoptera-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "The white-winged coot feeds mostly on aquatic vegetation, though it also grazes on land away from water.",
+      "source": "https://en.wikipedia.org/wiki/White-winged_coot?oldid=1348814986"
+    },
+    {
+      "text": "It makes a floating platform nest of rushes and other plants, sometimes in emergent vegetation but also on beds of floating plants.",
+      "source": "https://en.wikipedia.org/wiki/White-winged_coot?oldid=1348814986"
+    },
+    {
+      "text": "The white-winged coot is very vocal, making a \"variety of loud, hollow cackling calls and clucking notes\" some of which sound like human laughter.",
+      "source": "https://en.wikipedia.org/wiki/White-winged_coot?oldid=1348814986"
+    },
+    {
+      "text": "The white-winged coot (Fulica leucoptera) is a species of bird in the subfamily Rallinae of the family Rallidae.",
+      "source": "https://en.wikipedia.org/wiki/White-winged_coot?oldid=1348814986"
+    }
+  ],
+  "summary": [
+    "The white-winged coot (Fulica leucoptera) is a species of bird in the subfamily Rallinae of the family Rallidae. It is found in Argentina, Bolivia, Brazil, Chile, Paraguay, Uruguay, and the Falkland Islands.",
+    "The white-winged coot is 35 to 43 cm (14 to 17 in) long and weighs about 400 to 600 g (14 to 21 oz). The sexes are alike. Adults have a yellow to greenish yellow bill and a small yellow to orange-yellow frontal shield, though these colors may further vary. Their legs and feet are pale sea green to yellow-green and have blackish toes and joints. Their plumage is slaty gray that is blacker on the head and neck. They have white undertail coverts, and wide white tips on the secondaries provide the English name. Immature birds have a dusky olive bill, greenish gray legs and feet, gray-brown upperparts, and paler underparts than adults. Juveniles are dark drab gray with dusky mottling on a white head and neck."
+  ],
+  "image": {
+    "src": "/img/fulica-leucoptera-1200.webp",
+    "srcset": [
+      "/img/fulica-leucoptera-600.webp 600w",
+      "/img/fulica-leucoptera-1200.webp 1200w"
+    ],
+    "alt": "White-winged Coot (Fulica leucoptera); species reference photograph",
+    "credit": "(c) Luciano Massa, some rights reserved (CC BY), uploaded by Luciano Massa",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/59693112",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/White-winged_coot?oldid=1348814986"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1268737"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/486"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2474388"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-24"
+}

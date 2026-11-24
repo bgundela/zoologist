@@ -1,0 +1,138 @@
+{
+  "id": "tachyphonus-coronatus",
+  "commonName": "Ruby-crowned Tanager",
+  "scientificName": "Tachyphonus coronatus",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Thraupidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#7f756c",
+    "tokens": {
+      "wash": "#faf9f9",
+      "soft": "#f0eeed",
+      "line": "#dbd8d6",
+      "ink": "#171513",
+      "muted": "#403b36",
+      "deep": "#383330",
+      "on-deep": "#f2f1f0"
+    },
+    "accentDark": "#b9b3ae",
+    "dark": {
+      "wash": "#0d0c0b",
+      "soft": "#1c1a18",
+      "line": "#46403b",
+      "ink": "#f5f4f3",
+      "muted": "#d9d6d3",
+      "deep": "#2c2926",
+      "on-deep": "#f5f4f3"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.029,
+      "max": 0.029
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "The ruby-crowned tanager feeds on arthropods, fruit, and seeds; fruits include both wild and cultivated species.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Brazil",
+      "Argentina",
+      "Paraguay",
+      "Uruguay",
+      "Greece"
+    ],
+    "countries": [
+      "BR",
+      "AR",
+      "PY",
+      "UY",
+      "GR"
+    ],
+    "rangeMapUrl": "/img/tachyphonus-coronatus-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "Their upperparts and wings are rufous-brown and their rump, uppertail coverts, and tail are more rufescent.",
+      "source": "https://en.wikipedia.org/wiki/Ruby-crowned_tanager?oldid=1374694527"
+    },
+    {
+      "text": "The ruby-crowned tanager feeds on arthropods, fruit, and seeds; fruits include both wild and cultivated species.",
+      "source": "https://en.wikipedia.org/wiki/Ruby-crowned_tanager?oldid=1374694527"
+    },
+    {
+      "text": "Its nest is a cup made from grass with a lining of rootlets and is typically in dense vegetation within about 2 m (7 ft) of the ground.",
+      "source": "https://en.wikipedia.org/wiki/Ruby-crowned_tanager?oldid=1374694527"
+    },
+    {
+      "text": "The ruby-crowned tanager's song is described as a \"simple high chirping tjur wdit tjur- -\" and its call a \"high, bouncing trit-trit trit- -\".",
+      "source": "https://en.wikipedia.org/wiki/Ruby-crowned_tanager?oldid=1374694527"
+    }
+  ],
+  "summary": [
+    "The ruby-crowned tanager (Tachyphonus coronatus) is a species of bird in the family Thraupidae, the tanagers and allies. It is found in Argentina, Brazil, Paraguay, and as a vagrant to Uruguay.",
+    "The ruby-crowned tanager was formally described in 1822 with the binomial Agelaius Coronatus [sic], mistakenly classifying it as a New World blackbird. It now shares the genus Tachyphonus with four other species and is sister to the white-lined tanager (T. rufus)."
+  ],
+  "image": {
+    "src": "/img/tachyphonus-coronatus-1200.webp",
+    "srcset": [
+      "/img/tachyphonus-coronatus-600.webp 600w",
+      "/img/tachyphonus-coronatus-1200.webp 1200w"
+    ],
+    "alt": "Ruby-crowned Tanager (Tachyphonus coronatus); species reference photograph",
+    "credit": "no rights reserved, uploaded by Ricardo Mitidieri",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/301208967",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Ruby-crowned_tanager?oldid=1374694527"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q948674"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/10079"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2488590"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-24"
+}

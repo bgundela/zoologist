@@ -1,0 +1,132 @@
+{
+  "id": "ninox-strenua",
+  "commonName": "Powerful Owl",
+  "scientificName": "Ninox strenua",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Strigiformes",
+    "family": "Strigidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 1.253,
+      "max": 1.447
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "Its diet consists largely of arboreal marsupials such as flying foxes (Pteropus spp.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Australia",
+      "Japan"
+    ],
+    "countries": [
+      "AU",
+      "JP"
+    ],
+    "rangeMapUrl": "/img/ninox-strenua-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "The powerful owl is a typically territorial raptorial bird that maintains a large home range and has long intervals between egg-laying and hatching of clutches.",
+      "source": "https://en.wikipedia.org/wiki/Powerful_owl?oldid=1384005201"
+    },
+    {
+      "text": "Its body mass is about the same on average as the great horned owl (Bubo virginianus), but it has a proportionately much longer tail and wings than that species.",
+      "source": "https://en.wikipedia.org/wiki/Powerful_owl?oldid=1384005201"
+    },
+    {
+      "text": "This is especially the case with young owls after dispersal before they can establish their own breeding territories.",
+      "source": "https://en.wikipedia.org/wiki/Powerful_owl?oldid=1384005201"
+    },
+    {
+      "text": "The powerful owl is the top nocturnal predator of the forests and woodlands in its range.",
+      "source": "https://en.wikipedia.org/wiki/Powerful_owl?oldid=1384005201"
+    }
+  ],
+  "summary": [
+    "The powerful owl (Ninox strenua), a species of owl native to south-eastern and eastern Australia, is the largest owl on the continent. It is found in coastal areas and in the Great Dividing Range, rarely more than 200 km (120 mi) inland. The IUCN Red List of Threatened Species also refers to this species as the powerful boobook.",
+    "An apex predator in its narrow distribution,  powerful owls are often opportunists, like most predators, but generally are dedicated to hunting arboreal mammals, in particular small to medium-sized marsupials. Such prey can comprise about three-quarters of their diet. Generally, this species lives in primary forests with tall, native trees, but can show some habitat flexibility when not nesting."
+  ],
+  "image": {
+    "src": "/img/ninox-strenua-1200.webp",
+    "srcset": [
+      "/img/ninox-strenua-600.webp 600w",
+      "/img/ninox-strenua-1200.webp 1200w"
+    ],
+    "alt": "Powerful Owl (Ninox strenua); species reference photograph",
+    "credit": "(c) Greg Tasney, some rights reserved (CC BY-SA)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/62264824",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Powerful_owl?oldid=1384005201"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q370297"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/20115"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2497827"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-24"
+}

@@ -1,0 +1,136 @@
+{
+  "id": "phalaenoptilus-nuttallii",
+  "commonName": "Common Poorwill",
+  "scientificName": "Phalaenoptilus nuttallii",
+  "taxonomy": {
+    "class": "Aves",
+    "order": "Caprimulgiformes",
+    "family": "Caprimulgidae"
+  },
+  "category": "Bird",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#483818",
+    "tokens": {
+      "wash": "#f8f7f6",
+      "soft": "#e9e7e3",
+      "line": "#ccc7be",
+      "ink": "#0d0a04",
+      "muted": "#241c0c",
+      "deep": "#20190b",
+      "on-deep": "#edebe8"
+    },
+    "accentDark": "#9a9280",
+    "dark": {
+      "wash": "#070602",
+      "soft": "#100c05",
+      "line": "#281f0d",
+      "ink": "#f0efed",
+      "muted": "#c8c3ba",
+      "deep": "#191408",
+      "on-deep": "#f0efed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": {
+      "min": 0.048,
+      "max": 0.048
+    },
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "Like other members of this family it feeds on nocturnal insects such as moths, beetles, and grasshoppers.",
+    "activity": null,
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Costa Rica"
+    ],
+    "countries": [
+      "US",
+      "CA",
+      "MX",
+      "CR"
+    ],
+    "rangeMapUrl": "/img/phalaenoptilus-nuttallii-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "The common poorwill (Phalaenoptilus nuttallii) is a nocturnal bird of the family Caprimulgidae, the nightjars.",
+      "source": "https://en.wikipedia.org/wiki/Common_poorwill?oldid=1380659693"
+    },
+    {
+      "text": "The outer tail-feathers are tipped with white, the markings slightly more prominent in the male.",
+      "source": "https://en.wikipedia.org/wiki/Common_poorwill?oldid=1380659693"
+    },
+    {
+      "text": "The common poorwill is told from similar nightjars by its small size, short bill, rounded wings with tips that reach the end of the short tail at rest, and pale gray coloration.",
+      "source": "https://en.wikipedia.org/wiki/Common_poorwill?oldid=1380659693"
+    },
+    {
+      "text": "The nest of the common poorwill is a shallow scrape on the ground, often at the base of a hill and frequently shaded partly by a bush or clump of grass.",
+      "source": "https://en.wikipedia.org/wiki/Common_poorwill?oldid=1380659693"
+    }
+  ],
+  "summary": [
+    "The common poorwill (Phalaenoptilus nuttallii) is a nocturnal bird of the family Caprimulgidae, the nightjars. It is found from British Columbia and southeastern Alberta, through the western United States to northern Mexico. The bird's habitat is dry, open areas with grasses or shrubs, and even stony desert slopes with very little vegetation.",
+    "Many northern birds migrate to winter within the breeding range in central and western Mexico, though some remain further north. The common poorwill is the only bird known to go into torpor for extended periods (weeks to months). This happens on the southern edge of its range in the United States, where it spends much of the winter inactive, concealed in piles of rocks. Such an extended period of torpor is close to a state of hibernation and is not known among other birds."
+  ],
+  "image": {
+    "src": "/img/phalaenoptilus-nuttallii-1200.webp",
+    "srcset": [
+      "/img/phalaenoptilus-nuttallii-600.webp 600w",
+      "/img/phalaenoptilus-nuttallii-1200.webp 1200w"
+    ],
+    "alt": "Common Poorwill (Phalaenoptilus nuttallii); species reference photograph",
+    "credit": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/6160",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Common_poorwill?oldid=1380659693"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q930457"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/19609"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2497062"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-24"
+}

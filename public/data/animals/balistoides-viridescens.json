@@ -1,0 +1,247 @@
+{
+  "id": "balistoides-viridescens",
+  "commonName": "Titan Triggerfish",
+  "scientificName": "Balistoides viridescens",
+  "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Tetraodontiformes",
+    "family": "Balistidae"
+  },
+  "category": "Fish",
+  "conservationStatus": {
+    "code": "LC",
+    "label": "Least concern"
+  },
+  "theme": {
+    "accent": "#8b501f",
+    "tokens": {
+      "wash": "#faf8f6",
+      "soft": "#f1eae4",
+      "line": "#dfcec0",
+      "ink": "#190e06",
+      "muted": "#462810",
+      "deep": "#3d230e",
+      "on-deep": "#f3eee9"
+    },
+    "accentDark": "#bf9f84",
+    "dark": {
+      "wash": "#0e0803",
+      "soft": "#1f1207",
+      "line": "#4c2c11",
+      "ink": "#f6f1ed",
+      "muted": "#dccbbc",
+      "deep": "#311c0b",
+      "on-deep": "#f6f1ed"
+    },
+    "source": "photo-dominant"
+  },
+  "stats": {
+    "weightKg": null,
+    "lengthCm": null,
+    "lifespanYrs": {
+      "wild": null,
+      "captivity": null
+    },
+    "diet": "See diet below",
+    "dietNote": "It feeds on sea urchins, molluscs, crustaceans, tube worms and coral.",
+    "activity": "Diurnal",
+    "activityNote": "Described in the source article",
+    "livesIn": null,
+    "livesInNote": ""
+  },
+  "habitat": {
+    "types": [
+      "See source article for habitat details"
+    ],
+    "ecosystemRole": "Not well documented",
+    "regions": [
+      "Indonesia",
+      "Egypt",
+      "Australia",
+      "French Polynesia",
+      "Maldives",
+      "New Caledonia",
+      "Thailand",
+      "Philippines",
+      "Fiji",
+      "Japan",
+      "American Samoa",
+      "Malaysia",
+      "Mayotte",
+      "U.S. Outlying Islands",
+      "Réunion",
+      "Palau",
+      "Seychelles",
+      "Vanuatu",
+      "Micronesia",
+      "Northern Mariana Islands",
+      "Mozambique",
+      "Guam",
+      "Solomon Islands",
+      "Marshall Islands",
+      "India",
+      "Wallis & Futuna",
+      "Myanmar (Burma)",
+      "Taiwan",
+      "Papua New Guinea",
+      "Saudi Arabia",
+      "Madagascar",
+      "Kiribati",
+      "South Africa",
+      "Sri Lanka",
+      "Christmas Island",
+      "Mauritius",
+      "Kenya",
+      "French Southern Territories",
+      "Tanzania",
+      "Sudan",
+      "Djibouti",
+      "Timor-Leste",
+      "Cocos (Keeling) Islands",
+      "Tuvalu",
+      "Cook Islands",
+      "Nauru",
+      "Tonga",
+      "United States",
+      "Vietnam",
+      "Samoa",
+      "Niue",
+      "Bangladesh",
+      "Comoros",
+      "British Indian Ocean Territory",
+      "Yemen",
+      "Unknown Region",
+      "China",
+      "Hong Kong SAR China",
+      "Israel",
+      "Jordan",
+      "Somalia"
+    ],
+    "countries": [
+      "ID",
+      "EG",
+      "AU",
+      "PF",
+      "MV",
+      "NC",
+      "TH",
+      "PH",
+      "FJ",
+      "JP",
+      "AS",
+      "MY",
+      "YT",
+      "UM",
+      "RE",
+      "PW",
+      "SC",
+      "VU",
+      "FM",
+      "MP",
+      "MZ",
+      "GU",
+      "SB",
+      "MH",
+      "IN",
+      "WF",
+      "MM",
+      "TW",
+      "PG",
+      "SA",
+      "MG",
+      "KI",
+      "ZA",
+      "LK",
+      "CX",
+      "MU",
+      "KE",
+      "TF",
+      "TZ",
+      "SD",
+      "DJ",
+      "TL",
+      "CC",
+      "TV",
+      "CK",
+      "NR",
+      "TO",
+      "US",
+      "VN",
+      "WS",
+      "NU",
+      "BD",
+      "KM",
+      "IO",
+      "YE",
+      "ZZ",
+      "CN",
+      "HK",
+      "IL",
+      "JO",
+      "SO"
+    ],
+    "rangeMapUrl": "/img/balistoides-viridescens-range.webp",
+    "mapNote": "GBIF recorded occurrences, world view (north up). Records show observations, not the complete native range. GBIF contributors; see source for dataset licenses. Basemap © OpenStreetMap contributors / OpenMapTiles; Natural Earth.",
+    "threats": "See conservation information in the sources."
+  },
+  "funFacts": [
+    {
+      "text": "It feeds on sea urchins, molluscs, crustaceans, tube worms and coral.",
+      "source": "https://en.wikipedia.org/wiki/Titan_triggerfish?oldid=1349562688"
+    },
+    {
+      "text": "It often feeds by turning over rocks, stirring up sand and biting off pieces of branching coral.",
+      "source": "https://en.wikipedia.org/wiki/Titan_triggerfish?oldid=1349562688"
+    },
+    {
+      "text": "The nest is placed in a flat sandy area, and is defended vigorously against any intruders.",
+      "source": "https://en.wikipedia.org/wiki/Titan_triggerfish?oldid=1349562688"
+    },
+    {
+      "text": "It may also roll onto its side, allowing it a better look at the intruder it perceives as threatening its nest.",
+      "source": "https://en.wikipedia.org/wiki/Titan_triggerfish?oldid=1349562688"
+    }
+  ],
+  "summary": [
+    "The titan triggerfish, giant triggerfish or moustache triggerfish (Balistoides viridescens) is a large species of triggerfish found in lagoons and at reefs to depths of 50 m (160 ft) in most of the Indo-Pacific, though it is absent from Hawaii. With a length of up to 75 centimetres (30 in), it is the largest species of triggerfish in its range (the stone triggerfish, Pseudobalistes naufragium, from the east Pacific is larger).",
+    "The titan triggerfish is diurnal and solitary. It feeds on sea urchins, molluscs, crustaceans, tube worms and coral. "
+  ],
+  "image": {
+    "src": "/img/balistoides-viridescens-1200.webp",
+    "srcset": [
+      "/img/balistoides-viridescens-600.webp 600w",
+      "/img/balistoides-viridescens-1200.webp 1200w"
+    ],
+    "alt": "Titan Triggerfish (Balistoides viridescens); species reference photograph",
+    "credit": "(c) Michal Honskus, some rights reserved (CC BY), uploaded by Michal Honskus",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://www.inaturalist.org/photos/158649889",
+    "changes": "Resized and converted to WebP"
+  },
+  "sources": [
+    {
+      "label": "Wikipedia (CC BY-SA 4.0)",
+      "url": "https://en.wikipedia.org/wiki/Titan_triggerfish?oldid=1349562688"
+    },
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1508315"
+    },
+    {
+      "label": "iNaturalist",
+      "url": "https://www.inaturalist.org/taxa/123392"
+    },
+    {
+      "label": "GBIF & dataset credits",
+      "url": "https://www.gbif.org/species/2407133"
+    },
+    {
+      "label": "Map attribution",
+      "url": "https://tile.gbif.org/ui/"
+    }
+  ],
+  "textLicense": "Extracts from Wikipedia, CC BY-SA 4.0. Formatting and selection edited. https://creativecommons.org/licenses/by-sa/4.0/",
+  "reviewed": false,
+  "updatedAt": "2026-11-24"
+}
